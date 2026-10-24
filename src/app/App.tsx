@@ -655,13 +655,6 @@ export default function App() {
         >
           <ArrowUp size={21} />
         </a>
-        <a
-          href={BRAND.whatsapp}
-          className="rounded-full p-4 bg-primary text-white shadow-xl"
-          aria-label="WhatsApp ile iletişim"
-        >
-          <MessageCircle size={26} />
-        </a>
       </div>
     </div>
   );
