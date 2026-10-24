@@ -172,7 +172,7 @@ export default function SupportAssistant() {
         type="button"
         className="support-launcher"
         aria-label={
-          open ? "Destek panelini kapat" : "Canlı destek asistanını aç"
+          open ? "Destek panelini kapat" : "AI Asistanı aç"
         }
         aria-expanded={open}
         aria-controls={open ? "support-panel" : undefined}
@@ -183,7 +183,7 @@ export default function SupportAssistant() {
         ) : (
           <>
             <MessageCircle size={23} />
-            <span>Canlı Destek</span>
+            <span>AI Asistan</span>
           </>
         )}
       </button>

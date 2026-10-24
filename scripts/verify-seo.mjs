@@ -99,4 +99,4 @@ const homepageRoutes = routes.filter(route => route.post).slice(0, 4);
 if (new Set(homepageRoutes.map(route => route.post.coverImage)).size !== 4) throw new Error("Ana sayfa blog kapakları birbirinden farklı olmalı.");
 if (!home.includes('href="/" aria-label="Leyla Ayar ana sayfa"')) throw new Error("Logo doğrudan ana sayfaya bağlanmalı.");
 if (!home.includes('İletişim Bilgileri</h2>')) throw new Error("İletişim başlığı güncel değil.");
-if (!home.includes('Canlı destek asistanını aç')) throw new Error("Destek asistanı düğmesi bulunamadı.");
+if (!home.includes('AI Asistanı aç')) throw new Error("Destek asistanı düğmesi bulunamadı.");
