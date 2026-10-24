@@ -1,6 +1,11 @@
 export const BRAND = {
   name: "Uzman Fizyoterapist Leyla Ayar",
   origin: "https://www.leylaayar.com",
+  hours: {
+    weekdays: "Pazartesi – Cuma: 09:00 – 18:00",
+    saturday: "Cumartesi: 12:00 – 18:00",
+    sunday: "Pazar: Kapalı",
+  },
   phone: "0534 307 00 48",
   telephone: "+905343070048",
   whatsapp: "https://wa.me/905343070048",

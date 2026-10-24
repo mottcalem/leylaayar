@@ -124,7 +124,7 @@ export default function App() {
       />
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-border">
         <div className="site-container flex items-center justify-between gap-4 h-24">
-          <a href="/#anasayfa" aria-label="Leyla Ayar ana sayfa">
+          <a href="/" aria-label="Leyla Ayar ana sayfa">
             <img
               src="/leylaayar.png"
               alt="Fizyoterapist Leyla Ayar"
@@ -517,7 +517,7 @@ export default function App() {
           <div className="site-container">
             <Heading
               badge="İletişim ve Randevu"
-              title="Bahçeşehir’de buluşalım"
+              title="İletişim Bilgileri"
               text="İhtiyaçlarınızı konuşmak ve randevu planlamak için bize ulaşın."
             />
             <div className="grid lg:grid-cols-2 gap-8">
@@ -552,11 +552,11 @@ export default function App() {
                   <div>
                     <h3 className="font-bold mb-2">Çalışma Saatleri</h3>
                     <p className="body-copy text-sm">
-                      Pazartesi – Cuma: 09:00 – 18:00
+                      {BRAND.hours.weekdays}
                       <br />
-                      Cumartesi: 12:00 – 18:00
+                      {BRAND.hours.saturday}
                       <br />
-                      Pazar: Kapalı
+                      {BRAND.hours.sunday}
                     </p>
                   </div>
                 </div>
@@ -647,7 +647,7 @@ export default function App() {
           </div>
         </div>
       </footer>
-      <div className="fixed right-5 bottom-5 z-40 flex flex-col gap-3">
+      <div className="fixed right-5 bottom-24 z-40 flex flex-col gap-3">
         <a
           href="#anasayfa"
           className="rounded-full p-3 bg-white text-primary shadow-lg border border-border"

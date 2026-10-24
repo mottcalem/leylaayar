@@ -1,3 +1,4 @@
+import SupportAssistant from "./app/components/SupportAssistant";
 import { createRoot, hydrateRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./app/App";
@@ -22,6 +23,7 @@ const app = (
       <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />
       <Route path="/kullanim-kosullari" element={<KullanimKosullari />} />
     </Routes>
+    <SupportAssistant />
   </BrowserRouter>
 );
 const root = document.getElementById("root")!;

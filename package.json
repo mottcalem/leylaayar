@@ -6,7 +6,8 @@
   "scripts": {
     "build": "vite build && node scripts/prerender.mjs && node scripts/verify-seo.mjs",
     "verify:seo": "node scripts/verify-seo.mjs",
-    "dev": "vite"
+    "dev": "vite",
+    "test:support": "node --test tests/support.test.mjs"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",

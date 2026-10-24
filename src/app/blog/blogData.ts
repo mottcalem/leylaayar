@@ -98,7 +98,7 @@ export const BLOG_POSTS: BlogPost[] = [
   ],
   "featured": true,
   "coverColor": "#153c33",
-  "coverImage": "/leyla-ayar-about.png",
+  "coverImage": "/blog-klinik-pilates.jpg",
   "sections": [
     {
       "id": "bolum-1",
@@ -151,7 +151,7 @@ export const BLOG_POSTS: BlogPost[] = [
   ],
   "featured": true,
   "coverColor": "#153c33",
-  "coverImage": "/leyla-ayar-about.png",
+  "coverImage": "/footbalance-tabanlik.webp",
   "sections": [
     {
       "id": "bolum-1",
@@ -204,7 +204,7 @@ export const BLOG_POSTS: BlogPost[] = [
   ],
   "featured": true,
   "coverColor": "#153c33",
-  "coverImage": "/leyla-ayar-about.png",
+  "coverImage": "/hero-foot-analysis.jpg",
   "sections": [
     {
       "id": "bolum-1",

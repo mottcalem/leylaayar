@@ -1,3 +1,4 @@
+import SupportAssistant from "../src/app/components/SupportAssistant";
 import { createElement } from "react";
 import { renderToString } from "react-dom/server";
 import { StaticRouter, Routes, Route } from "react-router";
@@ -22,6 +23,7 @@ export function renderPage(path: string) {
         <Route path="/cerez-politikasi" element={<CerezPolitikasi />} />
         <Route path="/kullanim-kosullari" element={<KullanimKosullari />} />
       </Routes>
+      <SupportAssistant />
     </StaticRouter>,
   );
 }
