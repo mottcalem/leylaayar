@@ -267,3 +267,13 @@
     }
   }
 }
+@layer components {
+  .support-typing { display: flex; align-items: center; gap: 8px; color: #5d7069; }
+  .support-typing-dots { display: inline-flex; gap: 4px; align-items: center; }
+  .support-typing-dots i { width: 5px; height: 5px; border-radius: 50%; background: #2f6b57; animation: support-typing-pulse 1s ease-in-out infinite; }
+  .support-typing-dots i:nth-child(2) { animation-delay: .15s; }
+  .support-typing-dots i:nth-child(3) { animation-delay: .3s; }
+  .support-suggestions button:disabled { opacity: .45; cursor: wait; }
+  @keyframes support-typing-pulse { 0%, 60%, 100% { transform: translateY(0); opacity: .35; } 30% { transform: translateY(-4px); opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { .support-typing-dots i { animation: none; } }
+}

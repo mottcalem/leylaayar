@@ -15,6 +15,8 @@ export default function SupportAssistant() {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<Message[]>([welcome]);
+  const [isTyping, setIsTyping] = useState(false);
+  const replyTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const launcher = useRef<HTMLButtonElement>(null);
   const field = useRef<HTMLInputElement>(null);
   const log = useRef<HTMLDivElement>(null);
@@ -23,19 +25,30 @@ export default function SupportAssistant() {
   }, [open]);
   useEffect(() => {
     if (open && log.current) log.current.scrollTop = log.current.scrollHeight;
-  }, [open, messages]);
+  }, [open, messages, isTyping]);
+  useEffect(() => () => {
+    if (replyTimer.current !== null) clearTimeout(replyTimer.current);
+  }, []);
   function close() {
     setOpen(false);
     launcher.current?.focus({ preventScroll: true });
   }
   function ask(text: string) {
     const question = text.trim().slice(0, 500);
-    if (!question) return;
+    if (!question || replyTimer.current !== null) return;
     setMessages((previous) => [
       ...previous.slice(-39),
       { role: "user", text: question },
-      { role: "assistant", ...getSupportReply(question) },
     ]);
+    setIsTyping(true);
+    replyTimer.current = setTimeout(() => {
+      setMessages((previous) => [
+        ...previous,
+        { role: "assistant", ...getSupportReply(question) },
+      ]);
+      setIsTyping(false);
+      replyTimer.current = null;
+    }, 2500);
     setInput("");
     field.current?.focus({ preventScroll: true });
   }
@@ -103,12 +116,19 @@ export default function SupportAssistant() {
                 )}
               </div>
             ))}
+            {isTyping && (
+              <div className="support-message support-message-assistant support-typing" role="status">
+                <span>Yazıyor</span>
+                <span className="support-typing-dots" aria-hidden="true"><i /><i /><i /></span>
+              </div>
+            )}
           </div>
           <div className="support-suggestions" aria-label="Önerilen sorular">
             {SUPPORT_SUGGESTIONS.map((question) => (
               <button
                 type="button"
                 key={question}
+                disabled={isTyping}
                 onClick={() => ask(question)}
               >
                 {question}
@@ -137,7 +157,7 @@ export default function SupportAssistant() {
             <button
               type="submit"
               aria-label="Soruyu gönder"
-              disabled={!input.trim()}
+              disabled={isTyping || !input.trim()}
             >
               <Send size={18} />
             </button>
