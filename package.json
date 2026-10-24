@@ -7,7 +7,8 @@
     "build": "vite build && node scripts/prerender.mjs && node scripts/verify-seo.mjs",
     "verify:seo": "node scripts/verify-seo.mjs",
     "dev": "vite",
-    "test:support": "node --test tests/support.test.mjs"
+    "test:support": "node --test tests/support.test.mjs",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -64,30 +65,19 @@
     "sonner": "2.0.3",
     "tailwind-merge": "3.2.0",
     "tw-animate-css": "1.3.8",
-    "vaul": "1.1.2"
+    "vaul": "1.1.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.12",
     "@vitejs/plugin-react": "4.7.0",
-    "esbuild": "^0.28.1",
+    "esbuild": "0.28.1",
     "tailwindcss": "4.1.12",
     "vite": "6.3.5"
   },
-  "peerDependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+  "engines": {
+    "node": "22.x"
   },
-  "peerDependenciesMeta": {
-    "react": {
-      "optional": true
-    },
-    "react-dom": {
-      "optional": true
-    }
-  },
-  "pnpm": {
-    "overrides": {
-      "vite": "6.3.5"
-    }
-  }
+  "packageManager": "npm@10.9.4"
 }
