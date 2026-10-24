@@ -1,0 +1,20 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "jbNpysJP3ZYlD1qZro6pS"
+uri = "file://attached_assets/image_search/prosthetic-fitting-bcm.jpg"
+type = "image"
+title = "1 - Hasta protez uygulaması (BCM)"
+
+[[outputs]]
+id = "Wy2rKKxRybV889HWCvJ5i"
+uri = "file://attached_assets/image_search/prosthetic-ottobock.jpg"
+type = "image"
+title = "2 - Klinisyen + protez kullanıcısı (Ottobock)"
+
+[[outputs]]
+id = "FUNSL4qb6okRcQOK83oVl"
+uri = "file://attached_assets/image_search/prosthetic-clinic-amputee.jpg"
+type = "image"
+title = "3 - Protez kliniği muayenesi"
