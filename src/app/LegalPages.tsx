@@ -11,12 +11,12 @@ function LegalLayout({ title, children }: { title: string; children: React.React
             <ArrowLeft className="w-4 h-4" />
             Ana Sayfa
           </a>
-          <img src="/arikan-logo.png" alt="Arıkan Ortopedi - Ortez & Protez" className="h-10 w-auto object-contain" />
+          <img src="/leylaayar.png" alt="Uzman Fizyoterapist Leyla Ayar" className="h-10 w-auto object-contain" />
           <div className="flex items-center gap-3">
-            <a href="tel:+902746000343" className="hidden sm:flex items-center gap-1.5 text-xs font-semibold text-primary">
-              <Phone className="w-3.5 h-3.5" /> 0274 600 03 43
+            <a href="tel:+905343070048" className="hidden sm:flex items-center gap-1.5 text-xs font-semibold text-primary">
+              <Phone className="w-3.5 h-3.5" /> 0534 307 00 48
             </a>
-            <a href="https://wa.me/905536660343" className="flex items-center gap-1.5 text-xs font-bold text-white bg-green-500 px-3 py-1.5 rounded-lg">
+            <a href="https://wa.me/905343070048" className="flex items-center gap-1.5 text-xs font-bold text-white bg-green-500 px-3 py-1.5 rounded-lg">
               <MessageCircle className="w-3.5 h-3.5" /> WhatsApp
             </a>
           </div>
@@ -28,7 +28,7 @@ function LegalLayout({ title, children }: { title: string; children: React.React
           {title}
         </h1>
         <p className="text-sm text-gray-500 mb-10 pb-8 border-b border-gray-200">
-          Son güncelleme: 27 Haziran 2026
+          Son güncelleme: 24 Ekim 2026
         </p>
         <div className="prose prose-gray max-w-none text-sm leading-relaxed space-y-6 text-gray-700">
           {children}
@@ -36,7 +36,7 @@ function LegalLayout({ title, children }: { title: string; children: React.React
       </main>
 
       <footer className="border-t border-gray-200 mt-16 py-8 text-center text-xs text-gray-400">
-        <p>© 2026 Arıkan Ortopedi - Ortez & Protez. Tüm hakları saklıdır.</p>
+        <p>© 2026 Uzman Fizyoterapist Leyla Ayar. Tüm hakları saklıdır.</p>
         <div className="flex justify-center gap-6 mt-3">
           <a href="/kvkk" className="hover:text-gray-600">KVKK</a>
           <a href="/gizlilik-politikasi" className="hover:text-gray-600">Gizlilik</a>
@@ -57,7 +57,7 @@ export function KVKK() {
         <h2 className="text-lg font-bold text-gray-900 mb-3">1. Veri Sorumlusunun Kimliği</h2>
         <p>
           6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, kişisel verileriniz; veri sorumlusu sıfatıyla
-          <strong> Kütahya Arıkan Ortopedi Ortez Protez Merkezi</strong> (Evliya Çelebi Mah. Eken Paşa Cd. No:13/E, Şehir Hastanesi Yanı, Kütahya) tarafından aşağıda açıklanan
+          <strong> Uzman Fizyoterapist Leyla Ayar</strong> (Avni Akyol Bulvarı Sofa Evleri B5 Blok D:37, Bahçeşehir) tarafından aşağıda açıklanan
           kapsamda işlenmektedir.
         </p>
       </section>
@@ -69,7 +69,7 @@ export function KVKK() {
           <li><strong>Kimlik Bilgileri:</strong> Ad, soyad, T.C. kimlik numarası</li>
           <li><strong>İletişim Bilgileri:</strong> Telefon numarası, e-posta adresi, adres</li>
           <li><strong>Sağlık Bilgileri:</strong> Tanı bilgileri, tedavi geçmişi, engel durumu, ölçü ve beden bilgileri</li>
-          <li><strong>SGK ve Sigorta Bilgileri:</strong> SGK numarası, provizyon bilgileri</li>
+          <li><strong>SGK ve Sigorta Bilgileri:</strong> Hizmet sürecinde gerekli görülen bilgiler</li>
           <li><strong>Finansal Bilgiler:</strong> Ödeme bilgileri, fatura adresi</li>
           <li><strong>Görsel Kayıtlar:</strong> İzniniz dahilinde alınan fotoğraflar</li>
         </ul>
@@ -79,8 +79,8 @@ export function KVKK() {
         <h2 className="text-lg font-bold text-gray-900 mb-3">3. Kişisel Verilerin İşlenme Amaçları</h2>
         <p>Kişisel verileriniz aşağıdaki amaçlarla işlenmektedir:</p>
         <ul className="list-disc pl-5 mt-2 space-y-1">
-          <li>Ortez ve protez ürün ve hizmetlerinin sunulması ve yönetilmesi</li>
-          <li>SGK ve özel sigorta süreçlerinin yürütülmesi</li>
+          <li>Fizyoterapi, egzersiz danışmanlığı ve randevu süreçlerinin yönetilmesi</li>
+          <li>Talep edilen hizmetlere ilişkin iletişimin yürütülmesi</li>
           <li>Randevu, takip ve bakım hatırlatmalarının yapılması</li>
           <li>Yasal yükümlülüklerin yerine getirilmesi (Sağlık Bakanlığı mevzuatı)</li>
           <li>Hasta memnuniyeti değerlendirmesi ve hizmet kalitesinin iyileştirilmesi</li>
@@ -118,8 +118,8 @@ export function KVKK() {
           <li>Zarara uğramanız halinde tazminat talep etme</li>
         </ul>
         <p className="mt-3">
-          Bu haklarınızı kullanmak için <strong>info@arikanortopedi.com</strong> adresine veya
-          Evliya Çelebi Mah. Eken Paşa Cd. No:13/E, Şehir Hastanesi Yanı, Kütahya adresine yazılı başvuruda bulunabilirsiniz.
+          Bu haklarınızı kullanmak için <strong>bilgi@leylaayar.com</strong> adresine veya
+          Avni Akyol Bulvarı Sofa Evleri B5 Blok D:37, Bahçeşehir adresine yazılı başvuruda bulunabilirsiniz.
         </p>
       </section>
     </LegalLayout>
@@ -134,7 +134,7 @@ export function GizlilikPolitikasi() {
       <section>
         <h2 className="text-lg font-bold text-gray-900 mb-3">1. Genel Bilgi</h2>
         <p>
-          Kütahya Arıkan Ortopedi Ortez Protez Merkezi olarak kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu Gizlilik Politikası,
+          Uzman Fizyoterapist Leyla Ayar olarak kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu Gizlilik Politikası,
           web sitemizi ziyaret ettiğinizde hangi bilgilerin toplandığını, bu bilgilerin nasıl kullanıldığını ve korunduğunu
           açıklamaktadır.
         </p>
@@ -189,7 +189,7 @@ export function GizlilikPolitikasi() {
         <h2 className="text-lg font-bold text-gray-900 mb-3">7. İletişim</h2>
         <p>
           Gizlilik politikamıza ilişkin sorularınız için{" "}
-          <a href="mailto:info@arikanortopedi.com" className="text-primary underline">info@arikanortopedi.com</a>{" "}
+          <a href="mailto:bilgi@leylaayar.com" className="text-primary underline">bilgi@leylaayar.com</a>{" "}
           adresine yazabilirsiniz.
         </p>
       </section>
@@ -282,7 +282,7 @@ export function KullanimKosullari() {
       <section>
         <h2 className="text-lg font-bold text-gray-900 mb-3">2. Hizmetlerin Kapsamı</h2>
         <p>
-          Arıkan Ortopedi - Ortez & Protez web sitesi; merkezimizin sunduğu ortez ve protez hizmetlerine ilişkin genel bilgilendirme
+          Uzman Fizyoterapist Leyla Ayar web sitesi; fizyoterapi, klinik pilates ve rehabilitasyon çalışmalarına ilişkin genel bilgilendirme
           amacıyla hazırlanmıştır. Web sitesindeki içerikler tıbbi tavsiye niteliği taşımamaktadır; sağlık kararlarınız
           için mutlaka uzman hekim görüşü alınız.
         </p>
@@ -291,7 +291,7 @@ export function KullanimKosullari() {
       <section>
         <h2 className="text-lg font-bold text-gray-900 mb-3">3. Fikri Mülkiyet Hakları</h2>
         <p>
-          Bu web sitesinde yer alan tüm içerikler (metin, görsel, logo, tasarım ve diğer materyaller) Arıkan Ortopedi - Ortez & Protez'e
+          Bu web sitesinde yer alan tüm içerikler (metin, görsel, logo, tasarım ve diğer materyaller) Uzman Fizyoterapist Leyla Ayar’a
           aittir ve telif hakkı yasalarıyla korunmaktadır. Yazılı izin alınmadan kopyalanamaz, çoğaltılamaz veya dağıtılamaz.
         </p>
       </section>
@@ -312,7 +312,7 @@ export function KullanimKosullari() {
         <p>
           Web sitesindeki bilgilerin güncelliği ve doğruluğu konusunda azami özen gösterilmekte olmakla birlikte, içeriğin
           eksiksizliği veya doğruluğu konusunda açık ya da zımni herhangi bir garanti verilmemektedir. Siteden edinilen
-          bilgilere dayanarak alınan kararlar sonucunda oluşabilecek zararlardan Arıkan Ortopedi - Ortez & Protez sorumlu tutulamaz.
+          bilgilere dayanarak alınan kararlar sonucunda oluşabilecek zararlardan Uzman Fizyoterapist Leyla Ayar sorumlu tutulamaz.
         </p>
       </section>
 
@@ -335,7 +335,7 @@ export function KullanimKosullari() {
       <section>
         <h2 className="text-lg font-bold text-gray-900 mb-3">8. Uygulanacak Hukuk</h2>
         <p>
-          Bu kullanım koşulları Türk Hukuku'na tabidir. Doğabilecek anlaşmazlıklarda Kütahya Mahkemeleri ve İcra Daireleri
+          Bu kullanım koşulları Türk Hukuku'na tabidir. Doğabilecek anlaşmazlıklarda İstanbul Mahkemeleri ve İcra Daireleri
           yetkilidir.
         </p>
       </section>
@@ -344,8 +344,8 @@ export function KullanimKosullari() {
         <h2 className="text-lg font-bold text-gray-900 mb-3">9. İletişim</h2>
         <p>
           Kullanım koşullarına ilişkin sorularınız için{" "}
-          <a href="mailto:info@arikanortopedi.com" className="text-primary underline">info@arikanortopedi.com</a>{" "}
-          adresine yazabilir veya <a href="tel:+902746000343" className="text-primary underline">0274 600 03 43</a> numaralı
+          <a href="mailto:bilgi@leylaayar.com" className="text-primary underline">bilgi@leylaayar.com</a>{" "}
+          adresine yazabilir veya <a href="tel:+905343070048" className="text-primary underline">0534 307 00 48</a> numaralı
           telefondan bize ulaşabilirsiniz.
         </p>
       </section>

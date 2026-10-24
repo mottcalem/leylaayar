@@ -1,0 +1,107 @@
+@layer components {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 112px;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: "Manrope", sans-serif;
+  }
+  a,
+  button,
+  summary {
+    -webkit-tap-highlight-color: transparent;
+  }
+  a:focus-visible,
+  button:focus-visible,
+  summary:focus-visible {
+    outline: 3px solid #4f8d78;
+    outline-offset: 5px;
+  }
+  .site-container {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+  .brand-hero {
+    background: linear-gradient(125deg, #0c2822 0%, #153c33 60%, #245b4b 100%);
+  }
+  .brand-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 21px;
+    border-radius: 12px;
+    background: #153c33;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    transition:
+      transform 0.2s,
+      opacity 0.2s;
+  }
+  .brand-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  .brand-button-outline {
+    color: #153c33;
+    border: 1px solid #153c3340;
+    background: transparent;
+  }
+  .brand-card {
+    padding: 28px;
+    border: 1px solid #153c3314;
+    border-radius: 20px;
+    background: white;
+  }
+  .body-copy {
+    color: #5d7069;
+    line-height: 1.8;
+  }
+  .section-badge {
+    display: inline-block;
+    border: 1px solid #153c3320;
+    background: #edf4f0;
+    color: #153c33;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    padding: 8px 14px;
+    border-radius: 99px;
+    margin-bottom: 20px;
+  }
+  .section-badge-light {
+    color: #c6e6d8;
+    border-color: #ffffff30;
+    background: #ffffff0a;
+  }
+  @media (max-width: 639px) {
+    .site-container {
+      padding-inline: 20px;
+    }
+    .brand-card {
+      padding: 23px;
+    }
+    .brand-button {
+      padding: 13px 17px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+    }
+  }
+}

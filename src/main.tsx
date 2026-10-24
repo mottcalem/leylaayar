@@ -1,12 +1,17 @@
-import { createRoot } from "react-dom/client";
+import { createRoot, hydrateRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./app/App";
-import { KVKK, GizlilikPolitikasi, CerezPolitikasi, KullanimKosullari } from "./app/LegalPages";
+import {
+  KVKK,
+  GizlilikPolitikasi,
+  CerezPolitikasi,
+  KullanimKosullari,
+} from "./app/LegalPages";
 import BlogPage from "./app/blog/BlogPage";
 import BlogPostPage from "./app/blog/BlogPost";
 import "./styles/index.css";
 
-createRoot(document.getElementById("root")!).render(
+const app = (
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
@@ -19,3 +24,6 @@ createRoot(document.getElementById("root")!).render(
     </Routes>
   </BrowserRouter>
 );
+const root = document.getElementById("root")!;
+if (root.hasChildNodes()) hydrateRoot(root, app);
+else createRoot(root).render(app);

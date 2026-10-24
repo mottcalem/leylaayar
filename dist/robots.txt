@@ -4,7 +4,7 @@ Allow: /
 Disallow: /src/
 Disallow: /.local/
 
-Sitemap: https://arikanortopedi.com/sitemap.xml
+Sitemap: https://www.leylaayar.com/sitemap.xml
 
 # LLM Crawlers
 User-agent: GPTBot

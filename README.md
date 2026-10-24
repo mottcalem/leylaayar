@@ -1,11 +1,28 @@
+# Leyla Ayar — Bahçeşehir
 
-  # Kurumsal Web Sitesi Tasarımı
+React + Vite ile hazırlanan fizyoterapi ve klinik pilates sitesi.
 
-  This is a code bundle for Kurumsal Web Sitesi Tasarımı. The original project is available at https://www.figma.com/design/Mx7ykwc8ryMw0TrhgvgvEm/Kurumsal-Web-Sitesi-Tasar%C4%B1m%C4%B1.
+## Geliştirme
 
-  ## Running the code
+```sh
+npm ci
+npm run dev
+```
 
-  Run `npm i` to install the dependencies.
+## Üretim
 
-  Run `npm run dev` to start the development server.
-  
+```sh
+npm run build
+```
+
+`dist/` yayınlanmaya hazır statik çıktıdır. Derleme, tüm sayfaların içeriğini HTML olarak oluşturur; sitemap, canonical ve sosyal paylaşım metalarını üretir. `npm run verify:seo` SEO, hizmetler, iç bağlantılar ve yerel görselleri doğrular.
+
+Marka bilgileri ve sekiz hizmet `src/app/brand.ts` içinde; ana renk `src/styles/theme.css` ile `src/styles/brand.css` içindedir. Blog verileri `src/app/blog/blogData.ts` dosyasındadır.
+
+## İçerik kaynakları
+
+24 Ekim 2026 tarihinde https://www.leylaayar.com/, `/hakkimizda` ve `/hizmetlerimiz` sayfalarındaki marka, eğitim, hizmet ve iletişim bilgileri esas alındı. Logo kullanıcı tarafından sağlandı. Klinik fotoğrafı mevcut Leyla Ayar sitesinden alındı.
+
+Kaynak projedeki ortez/protez anahtar kelimeleri korundu; lokasyon Bahçeşehir olarak uyarlandı. Cihaz üretimi, SGK anlaşması ve doğrulanmamış başarı/sertifika iddiaları Leyla Ayar hizmeti olarak sunulmaz. İlgili konular bilgilendirme rehberlerinde bulunur. Önceki Kütahya blog yolları istemci tarafında eşdeğer rehberlere çözümlenir; canonical yeni Bahçeşehir yolunu gösterir.
+
+Kaynak proje: https://github.com/mottcalem/MedikalCMS-IstanbulOrtezProtez

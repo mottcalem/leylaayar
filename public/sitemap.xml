@@ -1,168 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Ana Sayfalar -->
-  <url>
-    <loc>https://arikanortopedi.com/</loc>
-    <lastmod>2026-08-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog</loc>
-    <lastmod>2026-08-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Blog Yazıları -->
-  <url>
-    <loc>https://arikanortopedi.com/blog/kutahya-afo-kisiye-ozel-ayak-ayak-bilegi-ortezi-rehberi</loc>
-    <lastmod>2026-08-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/kutahyada-cocuklar-icin-ortez-tedavisi-neden-erken-baslamalidir</loc>
-    <lastmod>2026-07-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/kutahyada-alt-ekstremite-protezi-yaptirmayi-dusunenler-icin-rehber</loc>
-    <lastmod>2026-06-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/kisiye-ozel-protez-uretimi-kutahyada-nasil-yapiliyor</loc>
-    <lastmod>2026-06-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/kutahyada-sgk-anlasmali-protez-ortez-hizmeti-nasil-alinir</loc>
-    <lastmod>2026-06-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/kutahyada-ortez-protez-merkezi-secerken-nelere-dikkat-etmelisiniz</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/omurga-ortezi-korse-turleri-kullanim</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/sgk-ile-ortez-protez-nasil-alinir-adim-adim-rehber</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/ust-ekstremite-protezleri-el-kol-amputasyonu</loc>
-    <lastmod>2026-06-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/protez-kullanicilari-icin-spor-ve-aktif-yasam</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/mikroislemcili-diz-protezi-akilli-protez-teknolojisi</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/cocuklarda-ortez-kullanimi-ne-zaman-gerekli</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/plantar-fasiit-duz-tabanlik-ortopedik-tabanlik-tedavisi</loc>
-    <lastmod>2026-06-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/footbalance-ortopedik-tabanlik-kimlere-uygun</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/diz-ortezi-cesitleri-kullanim-alanlari</loc>
-    <lastmod>2026-05-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/alt-ekstremite-amputasyonu-sonrasi-protez-secimi</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/blog/kutahyada-ortez-protez-sgk-kapsami-rehberi</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Yasal Sayfalar -->
-  <url>
-    <loc>https://arikanortopedi.com/kvkk</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/gizlilik-politikasi</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/cerez-politikasi</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://arikanortopedi.com/kullanim-kosullari</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
+  <url><loc>https://www.leylaayar.com/</loc></url>
+  <url><loc>https://www.leylaayar.com/blog</loc></url>
+  <url><loc>https://www.leylaayar.com/kvkk</loc></url>
+  <url><loc>https://www.leylaayar.com/gizlilik-politikasi</loc></url>
+  <url><loc>https://www.leylaayar.com/cerez-politikasi</loc></url>
+  <url><loc>https://www.leylaayar.com/kullanim-kosullari</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehir-fizyoterapist-kisiye-ozel-degerlendirme</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehir-klinik-pilates-fizyoterapist-esliginde</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehir-taban-analizi-ortopedik-tabanlik</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehir-ortopedik-rehabilitasyon-omurga-sagligi</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehir-afo-kisiye-ozel-ayak-ayak-bilegi-ortezi-rehberi</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehirde-cocuklar-icin-ortez-tedavisi-neden-erken-baslamalidir</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehirde-alt-ekstremite-protezi-yaptirmayi-dusunenler-icin-rehber</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/kisiye-ozel-protez-uretimi-bahcesehirde-nasil-yapiliyor</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehirde-sgk-anlasmali-protez-ortez-hizmeti-nasil-alinir</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehirde-ortez-protez-merkezi-secerken-nelere-dikkat-etmelisiniz</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/bahcesehirde-ortez-protez-sgk-kapsami-rehberi</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/alt-ekstremite-amputasyonu-sonrasi-protez-secimi</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/diz-ortezi-cesitleri-kullanim-alanlari</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/footbalance-ortopedik-tabanlik-kimlere-uygun</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/plantar-fasiit-duz-tabanlik-ortopedik-tabanlik-tedavisi</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/cocuklarda-ortez-kullanimi-ne-zaman-gerekli</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/mikroislemcili-diz-protezi-akilli-protez-teknolojisi</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/protez-kullanicilari-icin-spor-ve-aktif-yasam</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/ust-ekstremite-protezleri-el-kol-amputasyonu</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/sgk-ile-ortez-protez-nasil-alinir-adim-adim-rehber</loc></url>
+  <url><loc>https://www.leylaayar.com/blog/omurga-ortezi-korse-turleri-kullanim</loc></url>
 </urlset>

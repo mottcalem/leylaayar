@@ -24,19 +24,228 @@ export type BlogPost = {
 };
 
 export const BLOG_POSTS: BlogPost[] = [
+{
+  "slug": "bahcesehir-fizyoterapist-kisiye-ozel-degerlendirme",
+  "title": "Bahçeşehir Fizyoterapist: Kişiye Özel Değerlendirme ve Hareket Planı",
+  "excerpt": "Bahçeşehir’de fizyoterapist arayanlar için ilk görüşme, hareket değerlendirmesi ve kişiye özel planlama süreci.",
+  "category": "Fizyoterapi",
+  "tags": [
+    "bahçeşehir fizyoterapist",
+    "bahçeşehir fizyoterapi",
+    "rehabilitasyon",
+    "kişiye özel egzersiz"
+  ],
+  "readingTime": 3,
+  "publishedAt": "2026-10-24",
+  "author": "Leyla Ayar Bilgilendirme",
+  "metaDescription": "Bahçeşehir’de fizyoterapist arayanlar için ilk görüşme, hareket değerlendirmesi ve kişiye özel planlama süreci.",
+  "keywords": [
+    "bahçeşehir fizyoterapist",
+    "bahçeşehir fizyoterapi",
+    "rehabilitasyon",
+    "kişiye özel egzersiz"
+  ],
+  "featured": true,
+  "coverColor": "#153c33",
+  "coverImage": "/leyla-ayar-about.png",
+  "sections": [
+    {
+      "id": "bolum-1",
+      "heading": "İlk görüşme nasıl ilerler?",
+      "level": 2,
+      "content": [
+        "Görüşmeye mevcut şikâyetlerinizi, günlük hareket alışkanlıklarınızı ve beklentilerinizi konuşarak başlanır. Varsa hekim raporlarınız ve önceki uygulamalarınıza ilişkin bilgileri yanınızda getirebilirsiniz."
+      ]
+    },
+    {
+      "id": "bolum-2",
+      "heading": "Kişiye özel planlama",
+      "level": 2,
+      "content": [
+        "Postür ve hareket değerlendirmesi sonrasında egzersiz hedefleri birlikte belirlenir. Çalışmanın içeriği ve ilerleme hızı kişisel ihtiyaçlara göre düzenlenir; her danışan için aynı program uygulanmaz."
+      ]
+    },
+    {
+      "id": "bolum-3",
+      "heading": "Bahçeşehir’de randevu ve takip",
+      "level": 2,
+      "content": [
+        "Leyla Ayar kliniği Bahçeşehir Sofa Evleri’ndedir. Randevu için 0534 307 00 48 numaralı telefondan ulaşabilir, fizyoterapi ve egzersiz danışmanlığı hakkında bilgi alabilirsiniz."
+      ]
+    }
+  ]
+},
+{
+  "slug": "bahcesehir-klinik-pilates-fizyoterapist-esliginde",
+  "title": "Bahçeşehir Klinik Pilates: Fizyoterapist Eşliğinde Egzersiz",
+  "excerpt": "Klinik pilatesin değerlendirme, bireysel program ve düzenli takip adımlarını tanıyın.",
+  "category": "Pilates",
+  "tags": [
+    "bahçeşehir klinik pilates",
+    "fizyoterapist eşliğinde klinik pilates",
+    "bahçeşehir pilates",
+    "postür"
+  ],
+  "readingTime": 3,
+  "publishedAt": "2026-10-24",
+  "author": "Leyla Ayar Bilgilendirme",
+  "metaDescription": "Klinik pilatesin değerlendirme, bireysel program ve düzenli takip adımlarını tanıyın.",
+  "keywords": [
+    "bahçeşehir klinik pilates",
+    "fizyoterapist eşliğinde klinik pilates",
+    "bahçeşehir pilates",
+    "postür"
+  ],
+  "featured": true,
+  "coverColor": "#153c33",
+  "coverImage": "/leyla-ayar-about.png",
+  "sections": [
+    {
+      "id": "bolum-1",
+      "heading": "Klinik pilates yaklaşımı",
+      "level": 2,
+      "content": [
+        "Klinik pilateste egzersizler, fizyoterapi değerlendirmesi ile belirlenen ihtiyaçlara göre uyarlanır. Beden farkındalığı, hareket kontrolü ve kas dengesi gibi hedefler kişisel planın parçaları olabilir."
+      ]
+    },
+    {
+      "id": "bolum-2",
+      "heading": "Program nasıl belirlenir?",
+      "level": 2,
+      "content": [
+        "Günlük yaşamınız, hareket deneyiminiz ve mevcut yakınmalarınız değerlendirilir. Egzersiz seçimi ile seansların yoğunluğu bu değerlendirmeye göre planlanır ve süreç içinde gözden geçirilir."
+      ]
+    },
+    {
+      "id": "bolum-3",
+      "heading": "Bahçeşehir’de klinik pilates",
+      "level": 2,
+      "content": [
+        "Leyla Ayar kliniğinde klinik pilates ve pilates seansları hakkında bilgi almak için iletişime geçebilirsiniz. Hamilelik pilatesi talebinde gebelik takibini yapan hekimin görüşü ve bireysel uygunluk değerlendirmesi dikkate alınır."
+      ]
+    }
+  ]
+},
+{
+  "slug": "bahcesehir-taban-analizi-ortopedik-tabanlik",
+  "title": "Bahçeşehir Taban Analizi ve Ortopedik Tabanlık Rehberi",
+  "excerpt": "Ayak basışı, duruş, yürüyüş ve kişiye özel tabanlık konularını birlikte ele alan başlangıç rehberi.",
+  "category": "Tabanlık",
+  "tags": [
+    "bahçeşehir taban analizi",
+    "bahçeşehir ayak analizi",
+    "ortopedik tabanlık bahçeşehir",
+    "kişiye özel tabanlık",
+    "FootBalance"
+  ],
+  "readingTime": 3,
+  "publishedAt": "2026-10-24",
+  "author": "Leyla Ayar Bilgilendirme",
+  "metaDescription": "Ayak basışı, duruş, yürüyüş ve kişiye özel tabanlık konularını birlikte ele alan başlangıç rehberi.",
+  "keywords": [
+    "bahçeşehir taban analizi",
+    "bahçeşehir ayak analizi",
+    "ortopedik tabanlık bahçeşehir",
+    "kişiye özel tabanlık",
+    "FootBalance"
+  ],
+  "featured": true,
+  "coverColor": "#153c33",
+  "coverImage": "/leyla-ayar-about.png",
+  "sections": [
+    {
+      "id": "bolum-1",
+      "heading": "Taban analizi neden değerlendirilir?",
+      "level": 2,
+      "content": [
+        "Ayak basışı, kişinin duruş ve yürüme alışkanlıklarıyla birlikte ele alınır. Değerlendirme sırasında günlük aktivite, ayakkabı kullanımı ve varsa mevcut şikâyetler paylaşılır."
+      ]
+    },
+    {
+      "id": "bolum-2",
+      "heading": "Ortopedik tabanlık ve kişiye özel yaklaşım",
+      "level": 2,
+      "content": [
+        "Ortopedik tabanlık ihtiyacı yalnızca ayak numarasına bakılarak belirlenmez. Uygun destek seçeneği bireysel değerlendirmeye bağlıdır. FootBalance ve diğer tabanlık seçeneklerine dair teknik bilgi, uygulamayı gerçekleştiren yetkili merkezden alınmalıdır."
+      ]
+    },
+    {
+      "id": "bolum-3",
+      "heading": "Bahçeşehir’de taban analizi randevusu",
+      "level": 2,
+      "content": [
+        "Bahçeşehir’deki Leyla Ayar kliniğine ulaşarak taban analizi ve hareket değerlendirmesi hakkında bilgi alabilirsiniz. Mevcut tabanlığınız, orteziniz veya ilgili hekim raporunuz varsa ilk görüşmede paylaşmanız süreci destekler."
+      ]
+    }
+  ]
+},
+{
+  "slug": "bahcesehir-ortopedik-rehabilitasyon-omurga-sagligi",
+  "title": "Bahçeşehir Ortopedik Rehabilitasyon ve Omurga Sağlığı",
+  "excerpt": "Ortopedik rehabilitasyonda kişisel hedefler, omurga sağlığı ve hareket takibine dair bilgiler.",
+  "category": "Rehabilitasyon",
+  "tags": [
+    "bahçeşehir ortopedik rehabilitasyon",
+    "bahçeşehir rehabilitasyon",
+    "omurga sağlığı",
+    "ortez",
+    "protez"
+  ],
+  "readingTime": 3,
+  "publishedAt": "2026-10-24",
+  "author": "Leyla Ayar Bilgilendirme",
+  "metaDescription": "Ortopedik rehabilitasyonda kişisel hedefler, omurga sağlığı ve hareket takibine dair bilgiler.",
+  "keywords": [
+    "bahçeşehir ortopedik rehabilitasyon",
+    "bahçeşehir rehabilitasyon",
+    "omurga sağlığı",
+    "ortez",
+    "protez"
+  ],
+  "featured": true,
+  "coverColor": "#153c33",
+  "coverImage": "/leyla-ayar-about.png",
+  "sections": [
+    {
+      "id": "bolum-1",
+      "heading": "Hareket hedefleri nasıl belirlenir?",
+      "level": 2,
+      "content": [
+        "Ameliyat veya yaralanma sonrası süreçte hekim önerileri, mevcut hareket kapasitesi ve günlük yaşam hedefleri birlikte değerlendirilir. Programın içeriği kişinin ihtiyaçları doğrultusunda planlanır."
+      ]
+    },
+    {
+      "id": "bolum-2",
+      "heading": "Omurga sağlığı ve postür",
+      "level": 2,
+      "content": [
+        "Uzun süre oturma, çalışma düzeni ve günlük hareket alışkanlıkları değerlendirmede ele alınabilir. Egzersiz ve beden farkındalığı çalışmaları kişiye uygun bir program içinde düzenlenir."
+      ]
+    },
+    {
+      "id": "bolum-3",
+      "heading": "Ortez ve protez ile ilgili değerlendirmeler",
+      "level": 2,
+      "content": [
+        "Ortez ve protez kullanan kişilerde cihazla ilgili teknik kararlar hekim ve yetkili uygulama merkezi tarafından verilmelidir. Fizyoterapi ve rehabilitasyon ihtiyaçları ise kişinin hareket hedefleri ve hekim yönlendirmesi doğrultusunda ayrıca ele alınır."
+      ]
+    }
+  ]
+},
   {
-    slug: "kutahya-afo-kisiye-ozel-ayak-ayak-bilegi-ortezi-rehberi",
-    title: "Kütahya AFO: Kişiye Özel Ayak ve Ayak Bileği Ortezi Rehberi",
+    slug: "bahcesehir-afo-kisiye-ozel-ayak-ayak-bilegi-ortezi-rehberi",
+    title: "Bahçeşehir AFO: Kişiye Özel Ayak ve Ayak Bileği Ortezi Rehberi",
     excerpt: "AFO çeşitleri, kişiye özel üretim süreci, kullanım önerileri ve çocuklarda AFO takibi hakkında kapsamlı rehber.",
     category: "Ortez",
-    tags: ["Kütahya AFO", "ayak bileği ortezi", "düşük ayak ortezi", "kişiye özel ortez", "çocuk AFO"],
+    tags: ["Bahçeşehir AFO", "ayak bileği ortezi", "düşük ayak ortezi", "kişiye özel ortez", "çocuk AFO"],
     readingTime: 10,
     publishedAt: "2026-08-30",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Kütahya'da kişiye özel AFO rehberi: AFO çeşitleri, kimlere uygulanır, ölçü ve üretim süreci, ayakkabı seçimi ve kullanım önerileri.",
-    keywords: ["kütahya afo", "kişiye özel afo", "ayak bileği ortezi", "düşük ayak ortezi", "çocuk afo kütahya"],
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Bahçeşehir’de kişiye özel AFO rehberi: AFO çeşitleri, kimlere uygulanır, ölçü ve üretim süreci, ayakkabı seçimi ve kullanım önerileri.",
+    keywords: ["bahçeşehir afo", "kişiye özel afo", "ayak bileği ortezi", "düşük ayak ortezi", "çocuk afo bahçeşehir"],
     featured: true,
-    coverColor: "#0AADA8",
+    coverColor: "#2f6b57",
     coverImage: "/kutahya-afo-ayak-bilegi-ortezi.png",
     sections: [
       {
@@ -51,7 +260,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         id: "kimlere-onerilebilir",
-        heading: "Kütahya'da AFO Kimlere Önerilebilir?",
+        heading: "Bahçeşehir’de AFO Kimlere Önerilebilir?",
         level: 2,
         content: [
           "AFO kullanımı çocuklarda ve yetişkinlerde farklı nedenlerle gündeme gelebilir. Hekim tarafından gerekli görüldüğünde düşük ayak, serebral palsi, inme sonrası hareket kayıpları, multipl skleroz, peroneal sinir hasarı, kas güçsüzlüğü, spastisite ve ayak bileği instabilitesi gibi durumlarda değerlendirilebilir.",
@@ -66,7 +275,7 @@ export const BLOG_POSTS: BlogPost[] = [
         content: [
           "Ayak ve ayak bileğinin biçimi, hareket kapasitesi ve destek ihtiyacı kişiden kişiye değişir. Bu nedenle doğru ölçü; AFO'nun vücuda uyumu, kullanım konforu ve işlevi açısından önemlidir.",
           "Kişiye özel AFO hazırlanırken yalnızca ayak numarası dikkate alınmaz. Baldır çevresi, ayak bileği yapısı, topuk pozisyonu, ayağın uzunluğu, deformitenin yönü ve yürüyüş sırasında ihtiyaç duyulan kontrol seviyesi de incelenir.",
-          "Uygun olmayan veya kontrol edilmeden kullanılan bir ortez baskı, sürtünme, ağrı ve yürüme güçlüğü oluşturabilir. Uygulama merkezi seçerken dikkat edilecek ölçütleri [Kütahya'da ortez ve protez merkezi seçimi yazımızda](/blog/kutahyada-ortez-protez-merkezi-secerken-nelere-dikkat-etmelisiniz) bulabilirsiniz.",
+          "Uygun olmayan veya kontrol edilmeden kullanılan bir ortez baskı, sürtünme, ağrı ve yürüme güçlüğü oluşturabilir. Uygulama merkezi seçerken dikkat edilecek ölçütleri [Bahçeşehir’de ortez ve protez merkezi seçimi yazımızda](/blog/bahcesehirde-ortez-protez-merkezi-secerken-nelere-dikkat-etmelisiniz) bulabilirsiniz.",
         ],
       },
       {
@@ -81,7 +290,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         id: "afo-yapim-sureci",
-        heading: "Kütahya'da Kişiye Özel AFO Yapım Süreci",
+        heading: "Bahçeşehir’de Kişiye Özel AFO Yapım Süreci",
         level: 2,
         content: [
           "1. Reçete ve ihtiyaç değerlendirmesi: Hekim reçetesi ve sağlık bilgileri incelenir; günlük yaşam, yürüme güçlüğü ve ortezden beklenen işlev değerlendirilir. Reçete ve geri ödeme adımları için [SGK ile ortez-protez alma rehberimizi](/blog/sgk-ile-ortez-protez-nasil-alinir-adim-adim-rehber) okuyabilirsiniz.",
@@ -118,12 +327,12 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "Çocuklarda AFO; büyüme, gelişim ve aktivite düzeyi dikkate alınarak planlanmalıdır. Ayak parmaklarının ortezin ucunu geçmesi, bilek çevresinde yeni baskı izleri oluşması, çocuğun yürümek istememesi ya da yeni rahatsızlıkların başlaması kontrol gerektirebilir.",
-          "AFO'nun fizyoterapi, egzersiz veya hekim tarafından önerilen diğer uygulamaların yerine geçmediği unutulmamalıdır. Erken değerlendirme hakkında ayrıntılı bilgi için [Kütahya'da çocuk ortez tedavisi yazımızı](/blog/kutahyada-cocuklar-icin-ortez-tedavisi-neden-erken-baslamalidir) inceleyebilirsiniz.",
+          "AFO'nun fizyoterapi, egzersiz veya hekim tarafından önerilen diğer uygulamaların yerine geçmediği unutulmamalıdır. Erken değerlendirme hakkında ayrıntılı bilgi için [Bahçeşehir’de çocuk ortez tedavisi yazımızı](/blog/bahcesehirde-cocuklar-icin-ortez-tedavisi-neden-erken-baslamalidir) inceleyebilirsiniz.",
         ],
       },
       {
         id: "sik-sorulan-sorular",
-        heading: "Kütahya AFO Hakkında Sık Sorulan Sorular",
+        heading: "Bahçeşehir AFO Hakkında Sık Sorulan Sorular",
         level: 2,
         content: [
           "AFO ne işe yarar? Ayak ve ayak bileğini desteklemeye ve hareketlerini kontrol etmeye yardımcı olur; dengeyi, ayak pozisyonunu ve yürüme güvenliğini destekleyebilir.",
@@ -136,12 +345,12 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         id: "iletisim",
-        heading: "Kütahya'da AFO Değerlendirmesi İçin Bize Ulaşın",
+        heading: "Bahçeşehir’de AFO ve Hareket Değerlendirmesi",
         level: 2,
         content: [
-          "Kütahya Merkez, Tavşanlı, Simav, Gediz ve çevre ilçelerden AFO hakkında bilgi almak isteyenler Arıkan Ortopedi - Ortez & Protez ile iletişime geçebilir.",
-          "Mevcut reçeteniz ve sağlık belgeleriniz incelenerek ölçü, üretim, prova ve takip süreci hakkında bilgi verilir. Her kullanıcı için uygun ortez türü hekim önerisi ve bireysel değerlendirme doğrultusunda belirlenmelidir.",
-          "Randevu ve bilgi için [WhatsApp üzerinden bize ulaşabilir](https://wa.me/905536660343) veya 0274 600 03 43 numaralı telefonu arayabilirsiniz.",
+          "Bahçeşehir ve İstanbul çevresinde AFO, ortez ve protez kullanımı hakkında bilgi arayanlar için bu rehber genel bir başlangıç sunar.",
+          "AFO için ölçü, üretim ve prova işlemleri yetkili ortez protez merkezinde yürütülür. Uygun ortez türü hekim önerisi ve bireysel değerlendirme doğrultusunda belirlenmelidir.",
+          "Randevu ve bilgi için [WhatsApp üzerinden bize ulaşabilir](https://wa.me/905343070048) veya 0534 307 00 48 numaralı telefonu arayabilirsiniz.",
           "Bu içerik genel bilgilendirme amacı taşır; tanı veya kişisel tedavi önerisi yerine geçmez. AFO kullanımı ve model seçimi için hekiminize ve yetkili sağlık uzmanlarına danışınız.",
         ],
       },
@@ -149,18 +358,19 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "kutahyada-cocuklar-icin-ortez-tedavisi-neden-erken-baslamalidir",
-    title: "Kütahya'da Çocuklar İçin Ortez Tedavisi Neden Erken Başlamalıdır?",
+    slug: "bahcesehirde-cocuklar-icin-ortez-tedavisi-neden-erken-baslamalidir",
+    title: "Bahçeşehir’de Çocuklar İçin Ortez Tedavisi Neden Erken Başlamalıdır?",
     excerpt: "Çocuklarda ortez tedavisinde erken müdahalenin önemi, gelişim döneminde doğru zamanlama ve ailelere öneriler.",
     category: "Ortez",
-    tags: ["çocuk ortezi Kütahya", "pediatrik ortez Kütahya", "çocuk ortez tedavisi", "erken tedavi"],
+    tags: ["çocuk ortezi Bahçeşehir", "pediatrik ortez Bahçeşehir", "çocuk ortez tedavisi", "erken tedavi"],
     readingTime: 7,
     publishedAt: "2026-07-01",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Kütahya'da çocuklar için ortez tedavisi neden erken başlamalıdır? Gelişim dönemi, doğru zamanlama ve ailelere öneriler.",
-    keywords: ["çocuk ortezi kütahya", "pediatrik ortez kütahya", "çocuk ortez tedavisi", "afo çocuk kütahya"],
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Bahçeşehir’de çocuklar için ortez tedavisi neden erken başlamalıdır? Gelişim dönemi, doğru zamanlama ve ailelere öneriler.",
+    keywords: ["çocuk ortezi bahçeşehir", "pediatrik ortez bahçeşehir", "çocuk ortez tedavisi", "afo çocuk bahçeşehir"],
     featured: true,
-    coverColor: "#0AADA8",
+    coverColor: "#2f6b57",
     coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80&auto=format&fit=crop",
     sections: [
       {
@@ -170,7 +380,7 @@ export const BLOG_POSTS: BlogPost[] = [
         content: [
           "Çocuklarda iskelet sistemi henüz gelişim aşamasında olduğundan, ortopedik problemlerin erken tespiti ve tedavisi yaşam boyu sürecek sonuçları belirler. Erken dönemde başlanan ortez tedavisi, gelişmekte olan iskelet yapısını doğru yönlendirerek kalıcı düzeltme şansı sunar.",
           "0-7 yaş arası dönem, iskelet gelişiminin en aktif olduğu dönemdir. Bu dönemde uygulanan ortez müdahaleleri, kemik ve eklem yapılarını şekillendirme potansiyeline sahiptir. Gecikmiş tedavi ise deformitelerin kalıcı hale gelmesine, cerrahi gereksinimin artmasına ve tedavi süresinin uzamasına yol açar.",
-          "Çocuğunuzun ortopedik gelişimi konusunda endişeleriniz varsa, [Arıkan Ortopedi - Ortez & Protez](https://arikanortopedi.com/) uzman ekibiyle görüşerek erken değerlendirme yaptırabilirsiniz.",
+          "Çocuğunuzun ortopedik gelişimi konusunda endişeleriniz varsa, [Uzman Fizyoterapist Leyla Ayar](https://www.leylaayar.com/) uzman ekibiyle görüşerek erken değerlendirme yaptırabilirsiniz.",
         ],
       },
       {
@@ -180,8 +390,8 @@ export const BLOG_POSTS: BlogPost[] = [
         content: [
           "Çocukların motor gelişimi belirli kilometre taşlarını izler. Bu aşamalarda ortopedik değerlendirme, potansiyel sorunların erken saptanmasını sağlar.",
           "0-1 yaş: Baş kontrolü, oturma, emekleme ve ayakta durma becerisinin geliştiği dönem. Bu aşamada kalça displazisi, tortikollis ve konjenital ayak deformiteleri taraması yapılmalıdır.",
-          "1-3 yaş: İlk adımların atıldığı, yürüyüş paterninin oluştuğu kritik dönem. Düz tabanlık, içe yürüyüş ve varus/valgus deformiteleri bu dönemde değerlendirilir. Düz tabanlık tedavisi hakkında detaylı bilgi için [FootBalance ortopedik tabanlık](https://arikanortopedi.com/blog/footbalance-ortopedik-tabanlik-kimlere-uygun) yazımızı inceleyebilirsiniz.",
-          "3-7 yaş: Koşma, zıplama ve karmaşık motor aktivitelerin geliştiği dönem. Skolyoz taraması, diz ve ayak bileği problemleri izlenmelidir. Skolyoz tedavisinde korse kullanımı hakkında [omurga ortezi ve korse çeşitleri](https://arikanortopedi.com/blog/omurga-ortezi-korse-turleri-kullanim) yazımızdan bilgi alabilirsiniz.",
+          "1-3 yaş: İlk adımların atıldığı, yürüyüş paterninin oluştuğu kritik dönem. Düz tabanlık, içe yürüyüş ve varus/valgus deformiteleri bu dönemde değerlendirilir. Düz tabanlık tedavisi hakkında detaylı bilgi için [FootBalance ortopedik tabanlık](https://www.leylaayar.com/blog/footbalance-ortopedik-tabanlik-kimlere-uygun) yazımızı inceleyebilirsiniz.",
+          "3-7 yaş: Koşma, zıplama ve karmaşık motor aktivitelerin geliştiği dönem. Skolyoz taraması, diz ve ayak bileği problemleri izlenmelidir. Skolyoz tedavisinde korse kullanımı hakkında [omurga ortezi ve korse çeşitleri](https://www.leylaayar.com/blog/omurga-ortezi-korse-turleri-kullanim) yazımızdan bilgi alabilirsiniz.",
         ],
       },
       {
@@ -209,12 +419,11 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
-        id: "kutahyada-cocuk-ortez",
-        heading: "Kütahya'da Çocuk Ortez Hizmetleri",
+        id: "bahcesehirde-cocuk-ortez",
+        heading: "Bahçeşehir’de Çocuk Ortez Hizmetleri",
         level: 2,
         content: [
-          "Arıkan Ortopedi - Ortez & Protez Kütahya merkezimizde çocuk ortezleri için özel bir yaklaşım benimsenmektedir. Çocukların büyüme sürecini izleyerek, gelişim dönemine uygun tedavi planları hazırlanmaktadır.",
-          "Merkezimizde pediatrik AFO, KAFO, skolyoz korseleri, SMO (supra-malleolar orthosis), UCBL tabanlıklar ve düz tabanlık tabanlıklar kişiye özel üretilmektedir. Çocuk hastalarımıza ücretsiz büyüme takibi ve periyodik kontrol hizmeti sunulmaktadır. Protez hizmetlerimiz hakkında bilgi almak için [Kütahya'da alt ekstremite protezi rehberi](https://arikanortopedi.com/blog/kutahyada-alt-ekstremite-protezi-yaptirmayi-dusunenler-icin-rehber) yazımızı inceleyebilirsiniz.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
         ],
       },
       {
@@ -222,27 +431,28 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Ücretsiz Ön Değerlendirme Randevusu",
         level: 2,
         content: [
-          "Çocuğunuzun ortopedik gelişimi konusunda endişeleriniz varsa, uzman ekibimizle ücretsiz ön değerlendirme randevusu alabilirsiniz. Kütahya merkezimizde yapılan değerlendirmede çocuğunuzun durumu detaylı incelenerek en uygun tedavi planı belirlenmektedir.",
-          "Randevu almak için WhatsApp hattımızdan bize ulaşabilirsiniz: [WhatsApp ile İletişim](https://wa.me/905536660343) veya 0274 600 03 43 numaralı telefondan arayabilirsiniz. Tüm sorularınızı yanıtlamaktan memnuniyet duyarız.",
-          "Merkezimiz SGK anlaşmalı olup, çocuk ortez tedavisi için gerekli SGK süreçlerinde de size rehberlik etmektedir. SGK başvuru süreci hakkında detaylı bilgi için [SGK anlaşmalı protez ve ortez hizmeti](https://arikanortopedi.com/blog/kutahyada-sgk-anlasmali-protez-ortez-hizmeti-nasil-alinir) yazımızı inceleyebilirsiniz.",
+          "Bahçeşehir’de bireysel hareket ihtiyaçlarınıza uygun fizyoterapi, klinik pilates ve rehabilitasyon planlaması hakkında bilgi almak için 0534 307 00 48 numaralı telefondan ulaşabilirsiniz.",
+          "Randevu almak için WhatsApp hattımızdan bize ulaşabilirsiniz: [WhatsApp ile İletişim](https://wa.me/905343070048) veya 0534 307 00 48 numaralı telefondan arayabilirsiniz. Tüm sorularınızı yanıtlamaktan memnuniyet duyarız.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
         ],
       },
     ],
   },
 
   {
-    slug: "kutahyada-alt-ekstremite-protezi-yaptirmayi-dusunenler-icin-rehber",
-    title: "Kütahya'da Alt Ekstremite Protezi Yaptırmayı Düşünenler İçin Rehber",
+    slug: "bahcesehirde-alt-ekstremite-protezi-yaptirmayi-dusunenler-icin-rehber",
+    title: "Bahçeşehir’de Alt Ekstremite Protezi Yaptırmayı Düşünenler İçin Rehber",
     excerpt: "Bacak protezi hakkında bilmeniz gerekenler: kimlere uygulanır, süreç nasıl işler ve adaptasyon dönemi.",
     category: "Protez",
-    tags: ["bacak protezi Kütahya", "alt ekstremite protezi Kütahya", "diz altı protez Kütahya", "protez rehberi"],
+    tags: ["bacak protezi Bahçeşehir", "alt ekstremite protezi Bahçeşehir", "diz altı protez Bahçeşehir", "protez rehberi"],
     readingTime: 8,
     publishedAt: "2026-06-30",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Kütahya'da alt ekstremite protezi rehberi: bacak protezi kimlere uygulanır, süreç nasıl işler, adaptasyon dönemi ve SGK.",
-    keywords: ["bacak protezi kütahya", "alt ekstremite protezi kütahya", "diz altı protez kütahya", "diz üstü protez kütahya"],
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Bahçeşehir’de alt ekstremite protezi rehberi: bacak protezi kimlere uygulanır, süreç nasıl işler, adaptasyon dönemi ve SGK.",
+    keywords: ["bacak protezi bahçeşehir", "alt ekstremite protezi bahçeşehir", "diz altı protez bahçeşehir", "diz üstü protez bahçeşehir"],
     featured: false,
-    coverColor: "#123B6D",
+    coverColor: "#153c33",
     coverImage: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=1200&q=80&auto=format&fit=crop",
     sections: [
       {
@@ -289,31 +499,32 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
-        id: "kutahyada-protez-hizmetleri",
-        heading: "Kütahya'da Alt Ekstremite Protez Hizmetleri",
+        id: "bahcesehirde-protez-hizmetleri",
+        heading: "Bahçeşehir’de Alt Ekstremite Protez Hizmetleri",
         level: 2,
         content: [
-          "Arıkan Ortopedi - Ortez & Protez Kütahya merkezimizde diz altı, diz üstü ve tüm alt ekstremite protezleri için kapsamlı hizmet sunulmaktadır.",
-          "Hizmetlerimiz arasında: 3D dijital güdük tarama ve CAD/CAM soket tasarımı, karbon fiber ve kompozit malzeme seçenekleri, mikro işlemcili diz protezi uygulaması, spor protezi danışmanlığı, SGK süreci yönetimi ve ücretsiz takip randevuları yer almaktadır.",
-          "Ampute değerlendirmesi için ücretsiz randevu alabilirsiniz: 0274 600 03 43 veya WhatsApp.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
+          "Ampute değerlendirmesi için ücretsiz randevu alabilirsiniz: 0534 307 00 48 veya WhatsApp.",
         ],
       },
     ],
   },
 
   {
-    slug: "kisiye-ozel-protez-uretimi-kutahyada-nasil-yapiliyor",
-    title: "Kişiye Özel Protez Üretimi Kütahya'da Nasıl Yapılıyor?",
+    slug: "kisiye-ozel-protez-uretimi-bahcesehirde-nasil-yapiliyor",
+    title: "Kişiye Özel Protez Üretimi Bahçeşehir’de Nasıl Yapılıyor?",
     excerpt: "Kişiye özel protez üretim süreci: ölçü alma, tasarım, üretim, deneme ve teslim aşamaları.",
     category: "Protez",
-    tags: ["kişiye özel protez Kütahya", "Kütahya protez üretimi", "özel protez Kütahya", "CAD/CAM protez"],
+    tags: ["kişiye özel protez Bahçeşehir", "Bahçeşehir protez üretimi", "özel protez Bahçeşehir", "CAD/CAM protez"],
     readingTime: 7,
     publishedAt: "2026-06-28",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Kütahya'da kişiye özel protez nasıl üretilir? Ölçü alma, 3D tarama, tasarım, üretim, deneme ve teslim süreci.",
-    keywords: ["kişiye özel protez kütahya", "kütahya protez üretimi", "özel protez kütahya", "cadcad protez kütahya"],
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Bahçeşehir’de kişiye özel protez nasıl üretilir? Ölçü alma, 3D tarama, tasarım, üretim, deneme ve teslim süreci.",
+    keywords: ["kişiye özel protez bahçeşehir", "bahçeşehir protez üretimi", "özel protez bahçeşehir", "cadcad protez bahçeşehir"],
     featured: false,
-    coverColor: "#0AADA8",
+    coverColor: "#2f6b57",
     coverImage: "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=1200&q=80&auto=format&fit=crop",
     sections: [
       {
@@ -330,7 +541,7 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "1. Aşama: Ölçü Alma",
         level: 2,
         content: [
-          "Doğru ölçü alma, protez başarısının temelidir. Merkezimizde modern dijital ve geleneksel yöntemler birlikte kullanılır.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
           "3D dijital tarama: Structure Sensor veya benzeri 3D tarayıcılar ile güdük ve vücut konturları milimetre hassasiyetle dijital ortama aktarılır. Bu yöntem, alçıya göre daha hızlı, daha temiz ve daha doğrudur.",
           "Geleneksel alçı: Bazı durumlarda (cilt hassasiyeti, kompleks deformite) el ile alçı kalıbı alınması gerekebilir. Bu kalıp sonrasında yine dijital ortama aktarılır.",
           "Antropometrik ölçümler: Güdük çevresi, uzunluğu, eklem hareket açısı, kas gücü ve kontraktür varlığı detaylı kaydedilir. Karşı taraf değerlendirmesi de yapılır.",
@@ -374,18 +585,19 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "kutahyada-sgk-anlasmali-protez-ortez-hizmeti-nasil-alinir",
-    title: "Kütahya'da SGK Anlaşmalı Protez ve Ortez Hizmeti Nasıl Alınır?",
+    slug: "bahcesehirde-sgk-anlasmali-protez-ortez-hizmeti-nasil-alinir",
+    title: "Bahçeşehir’de SGK Anlaşmalı Protez ve Ortez Hizmeti Nasıl Alınır?",
     excerpt: "SGK anlaşmalı protez ve ortez hizmeti için gerekli evraklar, başvuru süreci, teslim ve SGK'nın karşıladığı ürünler.",
     category: "SGK & Mevzuat",
-    tags: ["SGK protez Kütahya", "SGK ortez Kütahya", "Kütahya SGK protez merkezi", "SGK anlaşmalı merkez"],
+    tags: ["SGK protez Bahçeşehir", "SGK ortez Bahçeşehir", "Bahçeşehir SGK protez merkezi", "SGK anlaşmalı merkez"],
     readingTime: 8,
     publishedAt: "2026-06-26",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Kütahya'da SGK anlaşmalı protez ve ortez hizmeti nasıl alınır? Evraklar, başvuru süreci, teslim ve karşılanan ürünler.",
-    keywords: ["sgk protez kütahya", "sgk ortez kütahya", "kütahya sgk protez merkezi", "sgk anlaşmalı ortez protez"],
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Bahçeşehir’de SGK anlaşmalı protez ve ortez hizmeti nasıl alınır? Evraklar, başvuru süreci, teslim ve karşılanan ürünler.",
+    keywords: ["sgk protez bahçeşehir", "sgk ortez bahçeşehir", "bahçeşehir sgk protez merkezi", "sgk anlaşmalı ortez protez"],
     featured: true,
-    coverColor: "#123B6D",
+    coverColor: "#153c33",
     coverImage: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=1200&q=80&auto=format&fit=crop",
     sections: [
       {
@@ -394,7 +606,7 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "SGK anlaşmalı ortez protez merkezleri, Sosyal Güvenlik Kurumu ile protokol imzalayarak belirli tıbbi cihazları SGK geri ödeme kapsamında sunan kuruluşlardır. Bu merkezlerde hasta, SGK'nın belirlediği tavan tutar dahilinde cihazı fark ücreti ödemeden veya minimum fark ile alabilir.",
-          "Arıkan Ortopedi - Ortez & Protez Kütahya merkezimiz tam SGK anlaşmalıdır. Bu sayede Kütahya ve çevresindeki hastalarımız SGK garantörlüğü altında ortez ve protez hizmetlerine erişebilir.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
         ],
       },
       {
@@ -407,7 +619,7 @@ export const BLOG_POSTS: BlogPost[] = [
           "Hekim raporu ve reçete: Ortopedi ve Travmatoloji, Fiziksel Tıp ve Rehabilitasyon veya Nöroloji uzmanı tarafından düzenlenmiş ortez/protez endikasyon raporu ve reçete.",
           "Sağlık kurulu raporu (gerektiğinde): Yüksek maliyetli cihazlar ve bazı özel durumlar için birden fazla uzman imzası taşıyan heyet raporu istenebilir.",
           "Ameliyat notu / epikriz: Protez başvurularında ampütasyon ameliyatının yapıldığına dair ameliyat notu veya hastane epikrizi.",
-          "Proforma fatura: Merkezimiz tarafından hazırlanan, cihazın teknik özellikleri ve fiyatını gösteren ön fatura.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
         ],
       },
       {
@@ -415,10 +627,9 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Başvuru Süreci Nasıl İşler?",
         level: 2,
         content: [
-          "Kütahya merkezimizde SGK başvuru süreci şu şekilde yönetilmektedir:",
-          "1. Ücretsiz ön değerlendirme: Merkezimize başvurunuzda uzmanlarımız tıbbi durumunuzu değerlendirir, SGK kapsamına uygun cihaz seçeneklerini belirler.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
           "2. Belge hazırlama: Reçete, rapor ve diğer belgelerin hazırlanması için yönlendirme yapılır. Gerekirse hastane başvurularınızda size eşlik edilir.",
-          "3. SGK ön onay başvurusu: Belgeler eksiksiz toplandıktan sonra merkezimiz SGK'ya ön onay başvurusu yapar. Bu süreç genellikle 3-10 iş günü sürer.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
           "4. Onay ve üretim: SGK onayının ardından cihaz üretim süreci başlar. Kişiye özel üretimde 1-3 hafta içinde cihazınız hazır olur.",
           "5. Cihaz teslim: Uyum kontrolleri ve gerekli ayarlamaların ardından cihaz teslim edilir.",
         ],
@@ -440,25 +651,26 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Teslim Süreci ve Takip",
         level: 2,
         content: [
-          "Cihazınız teslim edildiğinde bir yıl boyunca ücretsiz kontrol, bakım ve küçük ayarlamalar merkezimizce sağlanır.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
           "Yenileme süresi: SGK, cihaz türüne göre yenileme süresi belirler. Yetişkin protezlerinde genellikle 3-5 yıl, çocuk protezlerinde büyüme hızına göre daha kısa aralıklar geçerlidir.",
-          "Merkezimiz, yenileme zamanı yaklaşan hastalarımıza proaktif olarak bildirim yapmaktadır. Sorularınız için 0274 600 03 43 veya WhatsApp hattımızdan bize ulaşabilirsiniz.",
+          "Bahçeşehir’de bireysel hareket ihtiyaçlarınıza uygun fizyoterapi, klinik pilates ve rehabilitasyon planlaması hakkında bilgi almak için 0534 307 00 48 numaralı telefondan ulaşabilirsiniz.",
         ],
       },
     ],
   },
 
   {
-    slug: "kutahyada-ortez-protez-merkezi-secerken-nelere-dikkat-etmelisiniz",
-    title: "Kütahya'da Ortez ve Protez Merkezi Seçerken Nelere Dikkat Etmelisiniz?",
-    excerpt: "Kütahya'da ortez protez merkezi seçerken dikkat edilmesi gereken kriterler: uzman ekip, SGK anlaşması, kişiye özel üretim, deneyim ve takip hizmeti.",
+    slug: "bahcesehirde-ortez-protez-merkezi-secerken-nelere-dikkat-etmelisiniz",
+    title: "Bahçeşehir’de Ortez ve Protez Merkezi Seçerken Nelere Dikkat Etmelisiniz?",
+    excerpt: "Bahçeşehir’de ortez protez merkezi seçerken dikkat edilmesi gereken kriterler: uzman ekip, SGK anlaşması, kişiye özel üretim, deneyim ve takip hizmeti.",
     category: "Genel",
-    tags: ["Kütahya ortez protez merkezi", "Kütahya protez merkezi", "Kütahya ortez merkezi", "ortez protez seçimi"],
+    tags: ["Bahçeşehir ortez protez merkezi", "Bahçeşehir protez merkezi", "Bahçeşehir ortez merkezi", "ortez protez seçimi"],
     readingTime: 6,
     publishedAt: "2026-06-24",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Kütahya'da ortez protez merkezi seçerken nelere dikkat etmelisiniz? Uzman ekip, SGK anlaşması, kişiye özel üretim ve takip hizmeti kriterleri.",
-    keywords: ["kütahya ortez protez merkezi", "kütahya protez merkezi", "kütahya ortez merkezi", "en iyi ortez protez merkezi"],
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Bahçeşehir’de ortez protez merkezi seçerken nelere dikkat etmelisiniz? Uzman ekip, SGK anlaşması, kişiye özel üretim ve takip hizmeti kriterleri.",
+    keywords: ["bahçeşehir ortez protez merkezi", "bahçeşehir protez merkezi", "bahçeşehir ortez merkezi", "en iyi ortez protez merkezi"],
     featured: false,
     coverColor: "#1a5276",
     coverImage: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=1200&q=80&auto=format&fit=crop",
@@ -527,30 +739,31 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
-        id: "kutahyada-merkez-secimi",
-        heading: "Kütahya'da Ortez Protez Merkezi Seçimi",
+        id: "bahcesehirde-merkez-secimi",
+        heading: "Bahçeşehir’de Ortez Protez Merkezi Seçimi",
         level: 2,
         content: [
-          "Arıkan Ortopedi - Ortez & Protez Kütahya merkezimiz, yukarıdaki tüm kriterleri karşılayan tam donanımlı bir ortez protez merkezidir.",
-          "Uzman kadromuz, SGK anlaşmalı hizmetlerimiz, 3D tarama ve CAD/CAM teknolojimiz, 15 yılı aşkın deneyimimiz ve kapsamlı takip hizmetlerimizle Kütahya ve çevresinde güvenilir çözümler sunuyoruz. Ücretsiz ön değerlendirme için bizi arayabilirsiniz: 0274 600 03 43.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
         ],
       },
     ],
   },
 
   {
-    slug: "kutahyada-ortez-protez-sgk-kapsami-rehberi",
-    title: "Kütahya'da Ortez ve Protez Hizmetleri: SGK Kapsamı ve Başvuru Rehberi",
-    excerpt: "Kütahya'daki ortez ve protez hizmetlerini, SGK'nın hangi cihazları karşıladığını ve başvuru sürecini adım adım öğrenin.",
+    slug: "bahcesehirde-ortez-protez-sgk-kapsami-rehberi",
+    title: "Bahçeşehir’de Ortez ve Protez Hizmetleri: SGK Kapsamı ve Başvuru Rehberi",
+    excerpt: "Bahçeşehir’deki ortez ve protez hizmetlerini, SGK'nın hangi cihazları karşıladığını ve başvuru sürecini adım adım öğrenin.",
     category: "SGK & Mevzuat",
-    tags: ["SGK", "ortez", "protez", "Kütahya", "sigorta"],
+    tags: ["SGK", "ortez", "protez", "Bahçeşehir", "sigorta"],
     readingTime: 7,
     publishedAt: "2026-05-10",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Kütahya'da SGK kapsamında ortez ve protez nasıl alınır? Başvuru belgesi, hekim raporu ve raporlama süreci hakkında eksiksiz rehber.",
-    keywords: ["kütahya ortez protez", "sgk ortez protez", "kütahya protez merkezi", "sgk protez başvurusu"],
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Bahçeşehir’de SGK kapsamında ortez ve protez nasıl alınır? Başvuru belgesi, hekim raporu ve raporlama süreci hakkında eksiksiz rehber.",
+    keywords: ["bahçeşehir ortez protez", "sgk ortez protez", "bahçeşehir protez merkezi", "sgk protez başvurusu"],
     featured: true,
-    coverColor: "#123B6D",
+    coverColor: "#153c33",
     coverImage: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=1200&q=80&auto=format&fit=crop",
     sections: [
       {
@@ -588,16 +801,15 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "Ortez veya protez başvurusunda standart belgeler şunlardır: SGK'ya kayıtlı sağlık güvencesi (sigortalılık belgesi), uzman hekim tarafından düzenlenmiş tıbbi rapor (endikasyon raporu), protez için ampütasyon ameliyat notu veya epikriz, gerekli hallerde sağlık kurulu raporu (birden fazla uzmanın imzaladığı heyet raporu) ve cihazın teknik özellikleri ile fiyatını gösteren proforma fatura.",
-          "Kütahya'daki hastanemiz, belge hazırlama sürecinde size rehberlik etmekte; eksik evrakların tamamlanması için gerekli yönlendirmeyi sağlamaktadır.",
+          "Bahçeşehir’de bireysel hareket ihtiyaçlarınıza uygun fizyoterapi, klinik pilates ve rehabilitasyon planlaması hakkında bilgi almak için 0534 307 00 48 numaralı telefondan ulaşabilirsiniz.",
         ],
       },
       {
-        id: "kutahyada-hizmet",
-        heading: "Kütahya'da SGK'lı Ortez Protez Hizmeti",
+        id: "bahcesehirde-hizmet",
+        heading: "Bahçeşehir’de SGK'lı Ortez Protez Hizmeti",
         level: 2,
         content: [
-          "Arıkan Ortopedi - Ortez & Protez olarak Kütahya merkezimizde SGK ile anlaşmalı şekilde hizmet vermekteyiz. Uzman kadromuz, cihaz ölçümünden takibe kadar tüm süreci yanınızda yürütmektedir.",
-          "Merkezimize başvurduğunuzda ücretsiz ön değerlendirme yapılmakta; SGK başvurunuz için gerekli belge ve raporların hazırlanmasında destek sağlanmaktadır. Kütahya ve çevre illerden (Afyonkarahisar, Tavşanlı, Simav, Gediz) gelen hastalarımıza randevu önceliği tanınmaktadır.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
         ],
       },
       {
@@ -606,7 +818,7 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "Protez kaç yılda bir yenilenir? SGK, cihaz türüne göre yenileme süresi belirlemektedir. Alt ekstremite protezleri genellikle 3-5 yılda bir, çocuk protezleri ise büyüme hızına bağlı olarak daha kısa aralıklarla yenilenmektedir.",
-          "Fark ücreti öder miyim? SGK'nın belirlediği geri ödeme tavanının üzerinde kalan tutar fark ücreti olarak hasta tarafından ödenir. Merkezimiz, bütçenize uygun seçenekler konusunda şeffaf bilgi vermektedir.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
           "Başvurudan teslime kadar ne kadar sürer? Belgelerin eksiksiz olması halinde standart süreç 2-4 hafta içinde tamamlanmaktadır. Acil durumlarda süre kısaltılabilmektedir.",
         ],
       },
@@ -621,11 +833,12 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["bacak protezi", "ampütasyon", "rehabilitasyon", "protez seçimi"],
     readingTime: 8,
     publishedAt: "2026-05-18",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
     metaDescription: "Alt ekstremite amputasyonu sonrası protez seçimini etkileyen faktörler, protez tipleri ve rehabilitasyon sürecine dair uzman rehberi.",
     keywords: ["bacak protezi", "alt ekstremite protezi", "ampütasyon protez", "trans-tibial protez", "trans-femoral protez"],
     featured: false,
-    coverColor: "#0AADA8",
+    coverColor: "#2f6b57",
     coverImage: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=1200&q=80&auto=format&fit=crop",
     sections: [
       {
@@ -670,12 +883,11 @@ export const BLOG_POSTS: BlogPost[] = [
         ],
       },
       {
-        id: "kutahyada-protez-hizmet",
-        heading: "Kütahya'da Protez Hizmetleri",
+        id: "bahcesehirde-protez-hizmet",
+        heading: "Bahçeşehir’de Protez Hizmetleri",
         level: 2,
         content: [
-          "Arıkan Ortopedi - Ortez & Protez Kütahya merkezimizde alt ekstremite protezleri için komple hizmet sunulmaktadır. İlk değerlendirmeden protez teslimi ve düzenli bakıma kadar sürecin tamamı tek merkezde yönetilmektedir.",
-          "Merkezimizde dijital güdük tarama teknolojisi ile hızlı ve hassas soket üretimi yapılmakta; her protez kullanıcısı için kişiselleştirilmiş uyum randevuları planlanmaktadır. Kütahya ve çevre illerden gelen hastalarımıza ek yol/ulaşım danışmanlığı da verilmektedir.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
         ],
       },
     ],
@@ -689,7 +901,8 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["diz ortezi", "ligaman", "artrit", "cerrahi sonrası", "spor yaralanması"],
     readingTime: 6,
     publishedAt: "2026-05-25",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
     metaDescription: "Diz ortezi türleri, endikasyonları ve doğru ortez seçimi hakkında uzman rehberi. ACL, menisküs, artrit ve cerrahi sonrası diz ortezi.",
     keywords: ["diz ortezi", "diz ortezi çeşitleri", "acl ortezi", "menisküs ortezi", "diz stabilizatörü"],
     featured: false,
@@ -742,7 +955,7 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "Ortez ömrünü uzatmak ve hijyeni korumak için düzenli bakım şarttır. Menteşeli ortezlerin pivot noktaları kuru bez ile silinmeli, ıslak ortam temastan kaçınılmalıdır. Kumaş pedler ve astar materyaller haftada en az bir kez ılık su ve nötr sabunla yıkanmalıdır.",
-          "Yılda en az bir kez profesyonel kontrolden geçirilmesi önerilen diz ortezlerinde menteşe aşınması, cırt-cırt bozulması ve plastik çatlama gözlemlendiğinde uzman merkezinize başvurmanız gerekmektedir. Merkezimiz, Kütahya'da ücretsiz periyodik kontrol hizmeti sunmaktadır.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
         ],
       },
     ],
@@ -751,16 +964,17 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "footbalance-ortopedik-tabanlik-kimlere-uygun",
     title: "FootBalance Ortopedik Tabanlık: Kimler İçin Uygundur ve Nasıl Çalışır?",
-    excerpt: "FootBalance'ın %100 kişiye özel tabanlık teknolojisi, hangi sorunlara çözüm sunduğu ve Kütahya'da nasıl yaptırabileceğinizi öğrenin.",
+    excerpt: "FootBalance'ın %100 kişiye özel tabanlık teknolojisi, hangi sorunlara çözüm sunduğu ve Bahçeşehir’de nasıl yaptırabileceğinizi öğrenin.",
     category: "Tabanlık",
     tags: ["FootBalance", "ortopedik tabanlık", "düz tabanlık", "plantar fasiit", "ayak ağrısı"],
     readingTime: 6,
     publishedAt: "2026-06-02",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
     metaDescription: "FootBalance ortopedik tabanlık nedir, kimlere uygundur? Düz tabanlık, plantar fasiit, diz ve sırt ağrısı için 10 dakikada kişiye özel tabanlık hizmeti.",
-    keywords: ["footbalance tabanlık", "ortopedik tabanlık kütahya", "kişiye özel tabanlık", "düz tabanlık tedavisi", "plantar fasiit tabanlık"],
+    keywords: ["footbalance tabanlık", "ortopedik tabanlık bahçeşehir", "kişiye özel tabanlık", "düz tabanlık tedavisi", "plantar fasiit tabanlık"],
     featured: true,
-    coverColor: "#0AADA8",
+    coverColor: "#2f6b57",
     coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80&auto=format&fit=crop",
     sections: [
       {
@@ -786,10 +1000,10 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         id: "uygulama-sureci",
-        heading: "Kütahya'da FootBalance Uygulama Süreci",
+        heading: "Bahçeşehir’de FootBalance Uygulama Süreci",
         level: 2,
         content: [
-          "Merkezimizde FootBalance uygulaması dört adımda tamamlanmaktadır ve tüm süreç yaklaşık 10-15 dakika alır.",
+          "Bahçeşehir’de bireysel hareket ihtiyaçlarınıza uygun fizyoterapi, klinik pilates ve rehabilitasyon planlaması hakkında bilgi almak için 0534 307 00 48 numaralı telefondan ulaşabilirsiniz.",
           "1. Dijital ayak analizi: FootBalance Scan cihazı ile ayağın üç boyutlu basınç haritası çıkarılır. Parmak ucu, ön ayak, ark bölgesi ve topuk basınç dağılımı milimetre hassasiyetiyle ölçülür.",
           "2. Uzman değerlendirmesi: Uzmanımız ayak tipini (düz, yüksek kavuslı, nötr), yürüyüş paternini ve kullanım amacını belirler. Doğru seri (Sport, Everyday, Slim, Kids) seçilir.",
           "3. Şekillendirme: Özel fırında 80°C'ye ısıtılan tabanlık, bireyin ayağının altına yerleştirilerek kendi vücut ağırlığıyla 3 dakika içinde kalıba girer.",
@@ -811,7 +1025,7 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "FootBalance tabanlıklar, SGK'nın ortopedik tabanlık geri ödeme kapsamında değerlendirilebilmektedir. Ancak geri ödeme; hekim tarafından düzenlenen ortopedik tabanlık reçetesi ve SGK'ya kayıtlı sağlık güvencesi şartına bağlıdır.",
-          "SGK geri ödemesi için gerekli reçete ve belgeler konusunda merkezimiz size yol göstermektedir. SGK'nın karşılamadığı fark tutarı için merkezimiz uygun ödeme koşulları sunmaktadır. Detaylı bilgi için 0274 600 03 43 numaralı hattı arayabilir ya da WhatsApp üzerinden iletişime geçebilirsiniz.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
         ],
       },
     ],
@@ -825,9 +1039,10 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["plantar fasiit", "düz tabanlık", "topuk ağrısı", "pes planus", "ortopedik tabanlık"],
     readingTime: 7,
     publishedAt: "2026-06-08",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Plantar fasiit ve düz tabanlık (pes planus) tedavisinde ortopedik tabanlığın rolü, egzersiz protokolleri ve Kütahya'da tedavi seçenekleri.",
-    keywords: ["plantar fasiit tedavisi", "düz tabanlık tedavisi", "topuk ağrısı", "pes planus kütahya", "ayak tabanı ağrısı"],
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Plantar fasiit ve düz tabanlık (pes planus) tedavisinde ortopedik tabanlığın rolü, egzersiz protokolleri ve Bahçeşehir’de tedavi seçenekleri.",
+    keywords: ["plantar fasiit tedavisi", "düz tabanlık tedavisi", "topuk ağrısı", "pes planus bahçeşehir", "ayak tabanı ağrısı"],
     featured: false,
     coverColor: "#1a7a5e",
     coverImage: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=1200&q=80&auto=format&fit=crop",
@@ -895,7 +1110,8 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["çocuk ortezi", "pediyatrik ortez", "AFO", "serebral palsi", "çocuk düz tabanlık"],
     readingTime: 7,
     publishedAt: "2026-06-12",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
     metaDescription: "Çocuklarda ortez kullanımı ne zaman gereklidir? Serebral palsi, düz tabanlık ve gelişimsel sorunlarda pediyatrik ortez rehberi.",
     keywords: ["çocuk ortezi", "pediyatrik ortez", "afo çocuk", "çocuk düz tabanlık", "serebral palsi ortezi"],
     featured: false,
@@ -918,7 +1134,7 @@ export const BLOG_POSTS: BlogPost[] = [
         content: [
           "0-3 yaş arası tüm çocukların ayak içi yüzü yağ dokusundan oluştuğu için düz görünür; bu fizyolojiktir ve müdahale gerektirmez. 3-6 yaş arası ark gelişiminin izlenmesi önerilir.",
           "Aşağıdaki bulgulardan biri veya birkaçı mevcutsa ortez değerlendirmesi gerekir: Yürüyüş başlamasından itibaren 2 yılı aşkın sürede ark oluşmaması, yürürken sık tökezleme ve yorulma, baldır veya diz ağrısı şikayeti, ayakkabıların iç kenarının hızlı aşınması ve parmak ucunda duramama.",
-          "Çocuk düz tabanlık ortezleri genellikle özel tabanlık (SMO veya UCBL türü) şeklinde tasarlanır ve her büyüme döneminde yenilenmesi gerekir. Kütahya merkezimizde çocuk ayak analizi ücretsiz olarak yapılmaktadır.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
         ],
       },
       {
@@ -940,7 +1156,7 @@ export const BLOG_POSTS: BlogPost[] = [
           "Çocuğun orteze uyum süreci sabır gerektiren bir süreçtir. İlk günlerde kısa süreli (1-2 saat) kullanımla başlayıp uyum sağlandıkça süre kademeli artırılmalıdır.",
           "Cilt kontrolü: Ortez takıldıktan 30 dakika sonra ve çıkarıldıktan hemen sonra cilt kontrol edilmeli; 20 dakikadan uzun süre devam eden kızarıklıklar için merkezinizle iletişime geçilmelidir.",
           "Çorap kullanımı: Ortezin altına ince, dikişsiz pamuklu çorap giyilmelidir. Parmakları sıkıştıran veya katlanan çoraplar bası yaralanmalarına yol açabilir.",
-          "Büyüme kontrolü: Çocuk ortezleri büyüme hızına bağlı olarak 6-12 ayda bir değiştirilmelidir. Kütahya merkezimiz, periyodik büyüme kontrolü için ücretsiz randevu imkânı sunmaktadır.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
         ],
       },
     ],
@@ -954,8 +1170,9 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["mikroişlemcili diz", "akıllı protez", "C-Leg", "Genium", "biyonik bacak"],
     readingTime: 8,
     publishedAt: "2026-06-15",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
-    metaDescription: "Mikroişlemcili diz protezi nedir, nasıl çalışır? Kimler aday olabilir, SGK kapsamı var mı? Kütahya'da akıllı protez hizmetleri.",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
+    metaDescription: "Mikroişlemcili diz protezi nedir, nasıl çalışır? Kimler aday olabilir, SGK kapsamı var mı? Bahçeşehir’de akıllı protez hizmetleri.",
     keywords: ["mikroişlemcili diz protezi", "akıllı protez", "c-leg protez", "biyonik diz", "trans-femoral protez"],
     featured: false,
     coverColor: "#1a3a5c",
@@ -998,7 +1215,7 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "Türkiye'de mikroişlemcili diz protezleri SGK'nın özel onay kapsamındaki cihazlar arasında yer almaktadır. Sağlık Uygulama Tebliği'nin ilgili maddeleri çerçevesinde; Ortopedi ve Travmatoloji, Fiziksel Tıp ve Rehabilitasyon veya Nöroloji uzmanı tarafından düzenlenen rapor ve destekleyici belgelerle MPK için SGK'ya başvurulabilmektedir.",
-          "Onay süreci ayrıntılı tıbbi belgeleme gerektirmekte olup merkezimiz bu süreçte baştan sona size rehberlik etmektedir. SGK tarafından karşılanmayan fark tutarı için çeşitli finansman seçenekleri hakkında bilgi almak için merkezimizi arayabilirsiniz.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
         ],
       },
       {
@@ -1007,7 +1224,7 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "Mikroişlemcili diz protezi yüksek teknoloji içermesine karşın, başarılı kullanımı kapsamlı rehabilitasyon ile mümkündür. İlk programlama seansı, protezi bireyin yürüyüş parametrelerine göre optimize etmek için deneyimli bir ortez-protez uzmanı tarafından yapılır.",
-          "Takip eden rehabilitasyon programı; denge eğitimi, farklı zeminlerde yürüyüş, merdiven çıkma-inme, yük kaldırma ve günlük yaşam aktivitelerini kapsamalıdır. Kütahya merkezimizde MPK programlama ve rehabilitasyon koordinasyonu bir arada sunulmaktadır.",
+          "Bahçeşehir’de bireysel hareket ihtiyaçlarınıza uygun fizyoterapi, klinik pilates ve rehabilitasyon planlaması hakkında bilgi almak için 0534 307 00 48 numaralı telefondan ulaşabilirsiniz.",
         ],
       },
     ],
@@ -1021,7 +1238,8 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["spor protezi", "aktif yaşam", "koşu protezi", "paralimpik", "amputee spor"],
     readingTime: 6,
     publishedAt: "2026-06-18",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
     metaDescription: "Protez kullananlar spor yapabilir mi? Koşu, bisiklet, yüzme ve diğer sporlar için özel protez seçenekleri ve aktif yaşam rehberi.",
     keywords: ["spor protezi", "koşu protezi", "protez ile spor", "aktif yaşam protez", "karbon fiber spor protezi"],
     featured: false,
@@ -1079,9 +1297,10 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["el protezi", "kol protezi", "miyoelektrik protez", "biyonik el", "üst ekstremite"],
     readingTime: 7,
     publishedAt: "2026-06-20",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
     metaDescription: "Üst ekstremite amputasyonunda el ve kol protez seçenekleri: pasif, body-powered ve miyoelektrik protezler ile SGK kapsamı.",
-    keywords: ["el protezi", "kol protezi", "miyoelektrik el", "biyonik kol", "üst ekstremite protezi kütahya"],
+    keywords: ["el protezi", "kol protezi", "miyoelektrik el", "biyonik kol", "üst ekstremite protezi bahçeşehir"],
     featured: false,
     coverColor: "#2e4057",
     coverImage: "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=1200&q=80&auto=format&fit=crop",
@@ -1138,7 +1357,8 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["SGK ortez", "SGK protez", "sağlık güvencesi", "cihaz başvurusu", "devlet katkısı"],
     readingTime: 8,
     publishedAt: "2026-06-22",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
     metaDescription: "SGK ile ortez ve protez cihazı almak için hangi adımları izlemeniz gerekiyor? Gerekli belgeler, heyet raporu ve fark ücreti konusunda eksiksiz rehber.",
     keywords: ["sgk ortez protez başvuru", "sgk protez nasıl alınır", "sgk cihaz", "ortez protez devlet katkısı", "sut ortez"],
     featured: true,
@@ -1170,7 +1390,7 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "Hekim reçetenizi aldıktan sonra SGK ile anlaşmalı bir ortez protez merkezine başvurarak cihazınızın ölçüm ve üretim sürecini başlatmanız gerekmektedir.",
-          "Bu aşamada merkez; cihaz ölçümlerini alır, gerekli teknik özellikleri ve proforma faturayı hazırlar ve SGK'ya ön onay başvurusu yapar. Merkezimiz bu belgelerin tamamını sizin adınıza hazırlamaktadır.",
+          "SGK anlaşmalı ortez protez başvuruları için güncel kapsamı, gerekli belgeleri ve olası fark ücretlerini SGK ve yetkili ortez protez uygulama merkeziyle doğrulayın. Bu rehber, Leyla Ayar kliniğinin SGK anlaşması bulunduğu anlamına gelmez.",
           "Dikkat edilmesi gereken nokta: Cihaz merkezini seçerken SGK anlaşmasını, cihaz kalitesini, sonrası destek ve bakım olanaklarını birlikte değerlendirin. Yalnızca fiyat odaklı seçim uzun vadede ek maliyetlere yol açabilir.",
         ],
       },
@@ -1198,7 +1418,7 @@ export const BLOG_POSTS: BlogPost[] = [
         level: 2,
         content: [
           "SGK, cihaz türüne göre yenileme süreleri belirlemiştir. Bu süreler genellikle 3-5 yıl olup çocuklarda büyüme hızına bağlı olarak daha kısa tutulabilmektedir. Hasar veya tıbbi zorunluluk halinde süre dolmadan yenileme için ayrıca başvuru yapılabilmektedir.",
-          "Kütahya merkezimiz, yenileme zamanı yaklaşan hastalarımıza proaktif bildirim yaparak sürecin gecikmeden başlatılmasına yardımcı olmaktadır.",
+          "Bahçeşehir’de bireysel hareket ihtiyaçlarınıza uygun fizyoterapi, klinik pilates ve rehabilitasyon planlaması hakkında bilgi almak için 0534 307 00 48 numaralı telefondan ulaşabilirsiniz.",
         ],
       },
     ],
@@ -1212,7 +1432,8 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["omurga ortezi", "korse", "bel fıtığı", "skolyoz", "lomber ortez"],
     readingTime: 7,
     publishedAt: "2026-06-25",
-    author: "Arıkan Ortopedi - Ortez & Protez Uzman Ekibi",
+    author: "Leyla Ayar Bilgilendirme",
+    updatedAt: "2026-10-24",
     metaDescription: "Bel fıtığı, skolyoz, osteoporoz kırığı ve cerrahi sonrası dönemde kullanılan omurga ortezleri ve korseler hakkında kapsamlı rehber.",
     keywords: ["omurga ortezi", "bel korsesi", "skolyoz korsesi", "lomber ortez", "tlso brace"],
     featured: false,
@@ -1259,7 +1480,7 @@ export const BLOG_POSTS: BlogPost[] = [
         content: [
           "Osteoporotik vertebra kompresyon kırıklarında TLSO kullanımı; ağrı azalması, postürün korunması ve yeniden kırık riskinin azaltılması açısından etkin bir konservatif yaklaşımdır.",
           "Jewett veya CASH ortezi hiperekstensiyon ortezi olarak bu amaçla kullanılmaktadır; lomber kırıklarda ise lomber korseler tercih edilir. Cihaz seçimi kırığın seviyesi ve stabilitesi göz önüne alınarak yapılmalıdır.",
-          "Merkezimizde omurga ortezi uygulamaları için kişiye özel ölçü alımı ve uyum seansları sunulmakta; skolyoz korsesi takibinde 3 ayda bir kontrol randevusu planlanmaktadır.",
+          "Ortez ve protez seçimi, kişiye özel üretim, ölçü ve teknik kontroller ilgili hekim ile yetkili ortez protez merkezi tarafından planlanmalıdır. Bahçeşehir’de fizyoterapi ve hareket değerlendirmesi hakkında Leyla Ayar kliniğinden bilgi alabilirsiniz.",
         ],
       },
     ],
@@ -1268,6 +1489,8 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const BLOG_CATEGORIES = [
   "Tümü",
+  "Fizyoterapi",
+  "Pilates",
   "SGK & Mevzuat",
   "Protez",
   "Ortez",
@@ -1276,7 +1499,7 @@ export const BLOG_CATEGORIES = [
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug);
+  return BLOG_POSTS.find((p) => p.slug === slug.replace(/kutahyada/g, "bahcesehirde").replace(/kutahya/g, "bahcesehir"));
 }
 
 export function getRelatedPosts(current: BlogPost, count = 3): BlogPost[] {

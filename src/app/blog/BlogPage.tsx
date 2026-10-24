@@ -15,9 +15,9 @@ export default function BlogPage() {
   useCanonical();
 
   useEffect(() => {
-    document.title = "Blog | Ortez Protez & Rehabilitasyon — Arıkan Ortopedi - Ortez & Protez Kütahya";
+    document.title = "Blog | Fizyoterapi, Klinik Pilates, Ortez Protez & Rehabilitasyon — Uzman Fizyoterapist Leyla Ayar Bahçeşehir";
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.setAttribute("content", "Ortez, protez, FootBalance tabanlık, SGK kapsamı ve rehabilitasyon hakkında uzman blog yazıları. Kütahya Arıkan Ortopedi - Ortez & Protez Merkezi.");
+    if (desc) desc.setAttribute("content", "Bahçeşehir fizyoterapi ve klinik pilates yazıları; ortez, protez, FootBalance tabanlık ve SGK başvuru rehberleri.");
   }, []);
 
   const filtered = BLOG_POSTS.filter((p) => {
@@ -34,18 +34,18 @@ export default function BlogPage() {
       <header className="sticky top-0 z-50 bg-white/95 border-b border-border backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/arikan-logo.png" alt="Arıkan Ortopedi - Ortez & Protez" className="h-14 w-auto object-contain" />
+            <img src="/leylaayar.png" alt="Uzman Fizyoterapist Leyla Ayar" className="h-14 w-auto object-contain" />
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-muted-foreground">
             <Link to="/#hizmetler" className="hover:text-primary transition-colors">Hizmetlerimiz</Link>
-            <Link to="/#footbalance" className="hover:text-primary transition-colors">FootBalance®</Link>
+            <Link to="/#taban-analizi" className="hover:text-primary transition-colors">Taban Analizi</Link>
             <Link to="/#iletisim" className="hover:text-primary transition-colors">İletişim</Link>
           </nav>
           <div className="flex items-center gap-3">
-            <a href="tel:+902746000343" className="hidden sm:flex items-center gap-1.5 text-sm font-bold text-foreground hover:text-primary transition-colors">
-              <Phone className="w-4 h-4" /> 0274 600 03 43
+            <a href="tel:+905343070048" className="hidden sm:flex items-center gap-1.5 text-sm font-bold text-foreground hover:text-primary transition-colors">
+              <Phone className="w-4 h-4" /> 0534 307 00 48
             </a>
-            <a href="https://wa.me/905536660343" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/905343070048" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-2 text-white text-sm font-bold px-4 py-2 rounded-xl transition-all hover:-translate-y-0.5"
               style={{ background: "#25D366" }}>
               <MessageCircle className="w-4 h-4" /> WhatsApp
@@ -55,16 +55,16 @@ export default function BlogPage() {
       </header>
 
       {/* Hero */}
-      <section className="py-16 text-white" style={{ background: "linear-gradient(135deg, #123B6D 0%, #0AADA8 100%)" }}>
+      <section className="py-16 text-white" style={{ background: "linear-gradient(135deg, #153c33 0%, #2f6b57 100%)" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <span className="inline-flex items-center text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-5 bg-white/15 border border-white/25">
             Uzman Blog
           </span>
           <h1 className="text-4xl sm:text-5xl font-black mb-4" style={{ fontFamily: "Manrope, sans-serif" }}>
-            Ortez, Protez & Rehabilitasyon
+            Fizyoterapi, Ortez & Protez Rehberleri
           </h1>
           <p className="text-lg mb-8" style={{ color: "rgba(255,255,255,0.78)" }}>
-            Kütahya Arıkan Ortopedi - Ortez & Protez Merkezi uzman ekibinden güncel bilgiler, tedavi rehberleri ve SGK mevzuatı.
+            Bahçeşehir’de fizyoterapi ve klinik pilates; ortez, protez, tabanlık ve rehabilitasyon hakkında bilgilendirici rehberler.
           </p>
           {/* Arama */}
           <div className="relative max-w-lg mx-auto">
@@ -125,7 +125,7 @@ export default function BlogPage() {
               className="text-sm font-bold px-4 py-2 rounded-full border transition-all duration-200"
               style={
                 activeCategory === cat
-                  ? { background: "#123B6D", color: "#fff", borderColor: "#123B6D" }
+                  ? { background: "#153c33", color: "#fff", borderColor: "#153c33" }
                   : { background: "transparent", color: "#555", borderColor: "#ddd" }
               }
             >
@@ -171,22 +171,22 @@ export default function BlogPage() {
         )}
 
         {/* CTA */}
-        <div className="mt-16 rounded-3xl p-10 text-white text-center" style={{ background: "linear-gradient(135deg, #123B6D 0%, #0AADA8 100%)" }}>
+        <div className="mt-16 rounded-3xl p-10 text-white text-center" style={{ background: "linear-gradient(135deg, #153c33 0%, #2f6b57 100%)" }}>
           <h2 className="text-2xl font-extrabold mb-3" style={{ fontFamily: "Manrope, sans-serif" }}>
             Sorularınız mı var? Uzmanlarımız yanınızda.
           </h2>
           <p className="text-sm mb-7 max-w-lg mx-auto" style={{ color: "rgba(255,255,255,0.78)" }}>
-            Kütahya merkezimizde ücretsiz ön değerlendirme için hemen randevu alın.
+            Bahçeşehir’de kişiye özel değerlendirme için randevu ve bilgi alın.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <a href="https://wa.me/905536660343" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/905343070048" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-2 bg-white font-bold text-sm px-6 py-3 rounded-xl hover:-translate-y-0.5 transition-transform"
-              style={{ color: "#123B6D" }}>
+              style={{ color: "#153c33" }}>
               <MessageCircle className="w-4 h-4" /> WhatsApp ile Randevu
             </a>
-            <a href="tel:+902746000343"
+            <a href="tel:+905343070048"
               className="flex items-center gap-2 bg-white/15 border border-white/30 text-white font-bold text-sm px-6 py-3 rounded-xl hover:-translate-y-0.5 transition-transform">
-              <Phone className="w-4 h-4" /> 0274 600 03 43
+              <Phone className="w-4 h-4" /> 0534 307 00 48
             </a>
           </div>
         </div>
@@ -196,7 +196,7 @@ export default function BlogPage() {
       <footer className="border-t border-border py-8 mt-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <Link to="/" className="font-bold text-foreground hover:text-primary transition-colors">← Ana Sayfaya Dön</Link>
-          <p>© {new Date().getFullYear()} Arıkan Ortopedi - Ortez & Protez — Kütahya</p>
+          <p>© {new Date().getFullYear()} Uzman Fizyoterapist Leyla Ayar — Bahçeşehir</p>
         </div>
       </footer>
     </div>

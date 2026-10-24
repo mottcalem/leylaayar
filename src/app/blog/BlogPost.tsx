@@ -25,7 +25,7 @@ function renderContent(text: string) {
         target={match[2].startsWith("http") ? "_blank" : undefined}
         rel={match[2].startsWith("http") ? "noopener noreferrer" : undefined}
         className="font-semibold hover:underline"
-        style={{ color: "#0AADA8" }}
+        style={{ color: "#2f6b57" }}
       >
         {match[1]}
       </a>
@@ -54,7 +54,7 @@ function ReadingProgress() {
   }, []);
   return (
     <div className="fixed top-0 left-0 right-0 z-[100] h-1" style={{ background: "rgba(0,0,0,0.08)" }}>
-      <div className="h-full transition-all duration-100" style={{ width: `${pct}%`, background: "linear-gradient(90deg,#123B6D,#0AADA8)" }} />
+      <div className="h-full transition-all duration-100" style={{ width: `${pct}%`, background: "linear-gradient(90deg,#153c33,#2f6b57)" }} />
     </div>
   );
 }
@@ -72,12 +72,12 @@ function TableOfContents({ sections, activeId, compact = false }: { sections: { 
               className={`flex items-start rounded-lg transition-all duration-150 ${compact ? "gap-1.5 px-1.5 py-0.5 text-xs leading-4" : "gap-2 px-2 py-1.5 text-sm"}`}
               style={
                 activeId === s.id
-                  ? { color: "#0AADA8", fontWeight: 700, background: "rgba(10,173,168,0.08)" }
+                  ? { color: "#2f6b57", fontWeight: 700, background: "rgba(47,107,87,0.08)" }
                   : { color: "#555", fontWeight: 500 }
               }
             >
               <span className={`shrink-0 rounded-full flex items-center justify-center font-black mt-0.5 ${compact ? "w-4 h-4 text-[9px]" : "w-5 h-5 text-[10px]"}`}
-                style={{ background: activeId === s.id ? "#0AADA8" : "#e5e7eb", color: activeId === s.id ? "#fff" : "#555" }}>
+                style={{ background: activeId === s.id ? "#2f6b57" : "#e5e7eb", color: activeId === s.id ? "#fff" : "#555" }}>
                 {i + 1}
               </span>
               {s.heading}
@@ -103,7 +103,7 @@ export default function BlogPostPage() {
   useEffect(() => {
     if (!post) return;
     window.scrollTo(0, 0);
-    document.title = `${post.title} | Arıkan Ortopedi - Ortez & Protez Kütahya`;
+    document.title = `${post.title} | Uzman Fizyoterapist Leyla Ayar Bahçeşehir`;
     const desc = document.querySelector('meta[name="description"]');
     if (desc) desc.setAttribute("content", post.metaDescription);
 
@@ -116,13 +116,13 @@ export default function BlogPostPage() {
       author: { "@type": "Organization", name: post.author },
       publisher: {
         "@type": "LocalBusiness",
-        name: "Arıkan Ortopedi - Ortez & Protez",
-        telephone: ["+90-274-600-03-43", "+90-553-666-03-43", "+90-553-849-90-35"],
+        name: "Uzman Fizyoterapist Leyla Ayar",
+        telephone: ["+90-534-307-00-48"],
         address: {
           "@type": "PostalAddress",
-          streetAddress: "Evliya Çelebi Mah. Eken Paşa Cd. No:13/E, Şehir Hastanesi Yanı",
-          addressLocality: "Kütahya",
-          addressRegion: "Kütahya",
+          streetAddress: "Avni Akyol Bulvarı Sofa Evleri B5 Blok D:37",
+          addressLocality: "Bahçeşehir",
+          addressRegion: "İstanbul",
           addressCountry: "TR",
         },
       },
@@ -182,7 +182,7 @@ export default function BlogPostPage() {
       <header className="sticky top-1 z-50 bg-white/95 border-b border-border backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/arikan-logo.png" alt="Arıkan Ortopedi - Ortez & Protez" className="h-14 w-auto object-contain" />
+            <img src="/leylaayar.png" alt="Uzman Fizyoterapist Leyla Ayar" className="h-14 w-auto object-contain" />
           </Link>
           <div className="hidden md:flex items-center gap-3 text-sm text-muted-foreground font-semibold">
             <Link to="/" className="hover:text-primary transition-colors">Ana Sayfa</Link>
@@ -191,7 +191,7 @@ export default function BlogPostPage() {
             <ChevronRight className="w-3.5 h-3.5" />
             <span className="text-foreground truncate max-w-[200px]">{post.title}</span>
           </div>
-          <a href="https://wa.me/905536660343" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/905343070048" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-2 text-white text-sm font-bold px-4 py-2 rounded-xl hover:-translate-y-0.5 transition-all"
             style={{ background: "#25D366" }}>
             <MessageCircle className="w-4 h-4" /> WhatsApp
@@ -277,29 +277,29 @@ export default function BlogPostPage() {
             <div className="flex flex-wrap gap-2 mt-8 mb-10">
               {post.tags.map((tag) => (
                 <span key={tag} className="text-xs font-bold px-3 py-1.5 rounded-full"
-                  style={{ background: "rgba(10,173,168,0.10)", color: "#087a76", border: "1px solid rgba(10,173,168,0.25)" }}>
+                  style={{ background: "rgba(47,107,87,0.10)", color: "#087a76", border: "1px solid rgba(47,107,87,0.25)" }}>
                   #{tag}
                 </span>
               ))}
             </div>
 
             {/* CTA inline */}
-            <div className="rounded-2xl p-8 text-white mb-12" style={{ background: "linear-gradient(135deg, #123B6D 0%, #0AADA8 100%)" }}>
+            <div className="rounded-2xl p-8 text-white mb-12" style={{ background: "linear-gradient(135deg, #153c33 0%, #2f6b57 100%)" }}>
               <h3 className="text-xl font-extrabold mb-2" style={{ fontFamily: "Manrope, sans-serif" }}>
-                Ücretsiz Ön Değerlendirme İçin Bize Ulaşın
+                Randevu ve Bilgi İçin Bize Ulaşın
               </h3>
               <p className="text-sm mb-5" style={{ color: "rgba(255,255,255,0.80)" }}>
-                Kütahya merkezimizde uzmanlarımız sorularınızı yanıtlayarak size en uygun çözümü belirler.
+                Bahçeşehir’de fizyoterapi ve hareket ihtiyaçlarınız için randevu ve bilgi alabilirsiniz.
               </p>
               <div className="flex flex-wrap gap-3">
-                <a href="https://wa.me/905536660343" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/905343070048" target="_blank" rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-white font-bold text-sm px-5 py-2.5 rounded-xl hover:-translate-y-0.5 transition-transform"
-                  style={{ color: "#123B6D" }}>
+                  style={{ color: "#153c33" }}>
                   <MessageCircle className="w-4 h-4" /> WhatsApp ile Randevu
                 </a>
-                <a href="tel:+902746000343"
+                <a href="tel:+905343070048"
                   className="flex items-center gap-2 bg-white/15 border border-white/30 text-white font-bold text-sm px-5 py-2.5 rounded-xl hover:-translate-y-0.5 transition-transform">
-                  <Phone className="w-4 h-4" /> 0274 600 03 43
+                  <Phone className="w-4 h-4" /> 0534 307 00 48
                 </a>
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function BlogPostPage() {
                   {related.map((rp) => (
                     <Link key={rp.slug} to={`/blog/${rp.slug}`}
                       className="group bg-white border border-border rounded-2xl p-5 hover:-translate-y-1 hover:shadow-md transition-all duration-300">
-                      <span className="text-xs font-bold uppercase tracking-wider block mb-2" style={{ color: "#0AADA8" }}>{rp.category}</span>
+                      <span className="text-xs font-bold uppercase tracking-wider block mb-2" style={{ color: "#2f6b57" }}>{rp.category}</span>
                       <h4 className="font-extrabold text-foreground text-sm leading-snug mb-2 group-hover:text-primary transition-colors" style={{ fontFamily: "Manrope, sans-serif" }}>
                         {rp.title}
                       </h4>
@@ -336,17 +336,17 @@ export default function BlogPostPage() {
               </div>
 
               {/* Sidebar CTA */}
-              <div className="rounded-2xl p-4 text-white text-center" style={{ background: "linear-gradient(135deg, #123B6D 0%, #0AADA8 100%)" }}>
-                <p className="font-extrabold text-base mb-1" style={{ fontFamily: "Manrope, sans-serif" }}>Ücretsiz Değerlendirme</p>
-                <p className="text-xs mb-3" style={{ color: "rgba(255,255,255,0.78)" }}>Kütahya merkezimizde uzmanlarımızla görüşün.</p>
-                <a href="https://wa.me/905536660343" target="_blank" rel="noopener noreferrer"
+              <div className="rounded-2xl p-4 text-white text-center" style={{ background: "linear-gradient(135deg, #153c33 0%, #2f6b57 100%)" }}>
+                <p className="font-extrabold text-base mb-1" style={{ fontFamily: "Manrope, sans-serif" }}>Randevu ve Bilgi</p>
+                <p className="text-xs mb-3" style={{ color: "rgba(255,255,255,0.78)" }}>Bahçeşehir’deki Leyla Ayar kliniğiyle görüşün.</p>
+                <a href="https://wa.me/905343070048" target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-white font-bold text-sm px-4 py-2.5 rounded-xl hover:-translate-y-0.5 transition-transform mb-2 w-full"
-                  style={{ color: "#123B6D" }}>
+                  style={{ color: "#153c33" }}>
                   <MessageCircle className="w-4 h-4" /> WhatsApp
                 </a>
-                <a href="tel:+902746000343"
+                <a href="tel:+905343070048"
                   className="flex items-center justify-center gap-2 text-white/90 font-bold text-sm hover:text-white transition-colors">
-                  <Phone className="w-4 h-4" /> 0274 600 03 43
+                  <Phone className="w-4 h-4" /> 0534 307 00 48
                 </a>
               </div>
 
@@ -356,7 +356,7 @@ export default function BlogPostPage() {
                 <div className="flex flex-wrap gap-2">
                   {post.tags.map((tag) => (
                     <span key={tag} className="text-xs font-bold px-2.5 py-1 rounded-full"
-                      style={{ background: "rgba(10,173,168,0.10)", color: "#087a76", border: "1px solid rgba(10,173,168,0.20)" }}>
+                      style={{ background: "rgba(47,107,87,0.10)", color: "#087a76", border: "1px solid rgba(47,107,87,0.20)" }}>
                       #{tag}
                     </span>
                   ))}
@@ -372,7 +372,7 @@ export default function BlogPostPage() {
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="fixed bottom-6 right-6 z-50 w-11 h-11 rounded-full text-white flex items-center justify-center shadow-lg hover:-translate-y-0.5 transition-all"
-          style={{ background: "#123B6D" }}
+          style={{ background: "#153c33" }}
           aria-label="Başa dön">
           <ArrowUp className="w-5 h-5" />
         </button>
@@ -385,7 +385,7 @@ export default function BlogPostPage() {
             <Link to="/blog" className="font-bold text-foreground hover:text-primary transition-colors">← Blog</Link>
             <Link to="/" className="hover:text-primary transition-colors">Ana Sayfa</Link>
           </div>
-          <p>© {new Date().getFullYear()} Arıkan Ortopedi - Ortez & Protez — Kütahya</p>
+          <p>© {new Date().getFullYear()} Uzman Fizyoterapist Leyla Ayar — Bahçeşehir</p>
         </div>
       </footer>
     </div>

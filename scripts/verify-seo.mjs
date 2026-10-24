@@ -69,3 +69,28 @@ if (sitemapPaths.length !== routes.length) {
 }
 
 console.log(`SEO verification passed: ${sitemapPaths.length} sitemap route, ${blogTitles.size} unique blog titles.`);
+
+// Brand migration checks cover the deployed HTML, including content without JavaScript.
+const home = await readFile(join(DIST_DIR, "index.html"), "utf8");
+for (const service of ["Taban Analizi", "Omurga Sağlığı", "Kayroprakti", "Klinik Pilates", "Pilates", "Hamilelik Pilatesi", "Ortopedik Rehabilitasyon", "Diyetisyen"]) {
+  if (!home.includes(`>${service}</h3>`)) throw new Error(`Ana sayfada hizmet eksik: ${service}`);
+}
+for (const keyword of ["ortez protez Bahçeşehir", "SGK anlaşmalı ortez protez", "FootBalance Bahçeşehir", "ortopedik tabanlık Bahçeşehir", "kişiye özel tabanlık", "alt ekstremite protezi", "üst ekstremite protezi", "diz protezi", "biyonik kol"]) {
+  if (!home.includes(keyword)) throw new Error(`Korunan SEO kelimesi eksik: ${keyword}`);
+}
+const knownPaths = new Set(routes.map(r => r.path));
+for (const route of routes) {
+  const html = await readFile(outputPath(route.path), "utf8");
+  if ((html.match(/<h1(?:\s|>)/g) ?? []).length !== 1) throw new Error(`${route.path}: tek bir görünür H1 olmalı.`);
+  if (/Arıkan|arikanortopedi\.com|Kütahya|0274 600|0553 666/.test(html)) throw new Error(`${route.path}: eski marka bilgisi kaldı.`);
+  if (!html.includes('id="root"><div')) throw new Error(`${route.path}: sayfa içeriği önceden render edilmemiş.`);
+  for (const match of html.matchAll(/href="(\/[^"?#]*)(?:[?#][^"]*)?"/g)) {
+    if (match[1].startsWith("//") || /\.[a-z0-9]+$/i.test(match[1])) continue;
+    const path = match[1].replace(/\/$/, "") || "/";
+    if (!knownPaths.has(path)) throw new Error(`${route.path}: kırık iç bağlantı ${match[1]}`);
+  }
+  for (const match of html.matchAll(/<img[^>]+src="(\/[^"?]+)"/g)) {
+    await readFile(join(DIST_DIR, match[1]));
+  }
+}
+console.log("Brand verification passed: 8 services, preserved SEO terms, rendered content, internal links and local images.");
