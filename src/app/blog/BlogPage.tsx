@@ -61,7 +61,7 @@ export default function BlogPage() {
             Uzman Blog
           </span>
           <h1 className="text-4xl sm:text-5xl font-black mb-4" style={{ fontFamily: "Manrope, sans-serif" }}>
-            Fizyoterapi ve FootBalance Rehberleri
+            Bahçeşehir Fizyoterapi Merkezi Leyla Ayar - Blog
           </h1>
           <p className="text-lg mb-8" style={{ color: "rgba(255,255,255,0.78)" }}>
             Bahçeşehir’de fizyoterapi, klinik pilates, kişiye özel FootBalance tabanlık ve rehabilitasyon hakkında yazılar.
