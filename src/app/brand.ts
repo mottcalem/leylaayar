@@ -20,7 +20,7 @@ export const BRAND = {
 export const SERVICES = [
   {
     title: "Taban Analizi",
-    text: "Ayak basışı, duruş ve yürüyüş alışkanlıklarını birlikte değerlendirerek kişiye uygun yaklaşımı planlıyoruz.",
+    text: "Ayak basışı, duruş ve yürüyüş alışkanlıklarını değerlendiriyor, kişiye özel FootBalance tabanlık hizmeti sunuyoruz.",
     icon: "foot",
     category: "Ayak sağlığı",
   },
@@ -59,11 +59,5 @@ export const SERVICES = [
     text: "Ameliyat veya yaralanma sonrası süreçte hareket, kuvvet ve günlük yaşam hedeflerinize uygun bir program oluşturuyoruz.",
     icon: "shield",
     category: "Fizyoterapi",
-  },
-  {
-    title: "Diyetisyen",
-    text: "Beslenme danışmanlığı ile günlük alışkanlıklarınızı ve sağlıklı yaşam hedeflerinizi destekliyoruz.",
-    icon: "leaf",
-    category: "Sağlıklı yaşam",
   },
 ];

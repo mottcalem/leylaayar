@@ -36,10 +36,10 @@ export function getSupportReply(question: string): SupportReply {
       text: "Sitede güncel ücret veya paket bilgisi yer almıyor. İlgilendiğiniz hizmetin ücretini öğrenmek için kliniğe ulaşabilirsiniz.",
       links: contact,
     };
-  if (has("sgk", "sigorta", "protez", "ortez", "afo", "footbalance"))
+  if (has("sgk", "sigorta"))
     return {
-      text: "Sitemizde ortez, protez, AFO, FootBalance ve SGK başvuru süreçleri hakkında bilgilendirici rehberler bulunuyor. Cihaz reçetesi ve teknik uygulama için hekim ve yetkili ortez protez merkeziyle; geri ödeme için SGK ile görüşülmelidir. Kliniğin SGK anlaşması veya cihaz üretimi hakkında doğrulanmış bir bilgi paylaşamıyorum.",
-      links: [{ label: "Rehberleri inceleyin", href: "/blog" }, ...contact],
+      text: "Kliniğin SGK anlaşması veya geri ödeme koşulları hakkında doğrulanmış bir bilgi paylaşamıyorum. Ayrıntılar için kliniğe ulaşabilirsiniz.",
+      links: contact,
     };
   if (has("randevu", "rezervasyon", "musait", "bos saat", "seans ayir"))
     return {
@@ -118,8 +118,8 @@ export function getSupportReply(question: string): SupportReply {
       (s) =>
         q.includes(normalize(s.title)) ||
         (s.title === "Hamilelik Pilatesi" && has("hamile", "gebe")) ||
-        (s.title === "Taban Analizi" && has("tabanlik", "ayak analizi")) ||
-        (s.title === "Diyetisyen" && has("beslenme")) ||
+        (s.title === "Taban Analizi" && has("tabanlik", "ayak analizi", "footbalance")) ||
+        
         (s.title === "Ortopedik Rehabilitasyon" && has("rehabilitasyon")),
     );
   if (service)

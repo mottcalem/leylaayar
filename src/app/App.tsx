@@ -43,8 +43,8 @@ const FAQ = [
     "Hareket hedefleriniz, mevcut şikâyetleriniz ve sağlık geçmişiniz konuşulur. Postür, hareket kapasitesi ve ihtiyaç duyulan alanlar değerlendirilerek izlenecek süreç planlanır. Varsa hekim raporlarınızı yanınızda getirebilirsiniz.",
   ],
   [
-    "Ortez ve protez hakkında bilgi alabilir miyim?",
-    "Blogumuzda AFO, ortez, protez, ortopedik tabanlık ve SGK anlaşmalı ortez protez süreçlerine ilişkin bilgilendirici rehberler yer alır. Cihaz reçetesi, üretimi, teknik uygulama ve geri ödeme için ilgili hekim, yetkili ortez protez merkezi ve SGK ile görüşülmelidir.",
+    "Kişiye özel FootBalance tabanlık hizmetiniz var mı?",
+    "Kliniğimizde kişiye özel FootBalance tabanlık hizmeti sunulmaktadır. Ayak basışınız ve günlük hareket ihtiyaçlarınız değerlendirilerek uygulama planlanır. Bilgi ve randevu için bizimle iletişime geçebilirsiniz.",
   ],
   [
     "Hamilelik pilatesine nasıl başlanır?",
@@ -380,28 +380,20 @@ export default function App() {
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-6">
-                Ortopedik tabanlık, ortez ve protez rehberleri
+                Kişiye özel FootBalance tabanlık
               </h3>
               <p className="body-copy mb-6">
-                Kişiye özel tabanlık, FootBalance, AFO — ayak bileği ortezi, alt
-                ekstremite protezi ve üst ekstremite protezi gibi konuların
-                hareket ve rehabilitasyonla ilişkisini blogumuzda ele alıyoruz.
+                Kliniğimizde ayak yapınıza ve günlük ihtiyaçlarınıza uygun, kişiye özel FootBalance tabanlık hizmeti sunuyoruz.
               </p>
               <p className="body-copy mb-7">
-                Cihaz seçimi ve teknik uygulama ilgili hekim ve yetkili ortez
-                protez merkezi tarafından değerlendirilmelidir. Blogdaki SGK
-                anlaşmalı ortez protez bilgileri genel başvuru rehberidir.
+                Taban analizi ile ayak basışınızı değerlendiriyor; tabanlık uygulaması, ayakkabı uyumu ve kullanım süreci hakkında bilgi veriyoruz.
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "Ortez",
-                  "Protez",
                   "Ortopedik tabanlık",
                   "Ayak analizi",
                   "Kişiye özel tabanlık",
                   "FootBalance",
-                  "Diz protezi",
-                  "Biyonik kol",
                 ].map((t) => (
                   <a
                     key={t}
@@ -459,7 +451,7 @@ export default function App() {
             <Heading
               badge="Blog ve Rehberler"
               title="Hareket ve sağlıklı yaşam üzerine"
-              text="Fizyoterapi ve klinik pilatesin yanı sıra ortez, protez ve tabanlık konularındaki rehberleri keşfedin."
+              text="Fizyoterapi, klinik pilates ve kişiye özel FootBalance tabanlık hakkındaki yazılarımızı keşfedin."
             />
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {BLOG_POSTS.slice(0, 4).map((p) => (

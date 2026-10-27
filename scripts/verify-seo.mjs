@@ -72,15 +72,16 @@ console.log(`SEO verification passed: ${sitemapPaths.length} sitemap route, ${bl
 
 // Brand migration checks cover the deployed HTML, including content without JavaScript.
 const home = await readFile(join(DIST_DIR, "index.html"), "utf8");
-for (const service of ["Taban Analizi", "Omurga Sağlığı", "Kayroprakti", "Klinik Pilates", "Pilates", "Hamilelik Pilatesi", "Ortopedik Rehabilitasyon", "Diyetisyen"]) {
+for (const service of ["Taban Analizi", "Omurga Sağlığı", "Kayroprakti", "Klinik Pilates", "Pilates", "Hamilelik Pilatesi", "Ortopedik Rehabilitasyon"]) {
   if (!home.includes(`>${service}</h3>`)) throw new Error(`Ana sayfada hizmet eksik: ${service}`);
 }
-for (const keyword of ["ortez protez Bahçeşehir", "SGK anlaşmalı ortez protez", "FootBalance Bahçeşehir", "ortopedik tabanlık Bahçeşehir", "kişiye özel tabanlık", "alt ekstremite protezi", "üst ekstremite protezi", "diz protezi", "biyonik kol"]) {
+for (const keyword of ["FootBalance Bahçeşehir", "ortopedik tabanlık Bahçeşehir", "kişiye özel tabanlık"]) {
   if (!home.includes(keyword)) throw new Error(`Korunan SEO kelimesi eksik: ${keyword}`);
 }
 const knownPaths = new Set(routes.map(r => r.path));
 for (const route of routes) {
   const html = await readFile(outputPath(route.path), "utf8");
+  if (/afo|ortez|protez|diyetisyen/i.test(html)) throw new Error(`${route.path}: kaldırılan hizmet içeriği kaldı.`);
   if ((html.match(/<h1(?:\s|>)/g) ?? []).length !== 1) throw new Error(`${route.path}: tek bir görünür H1 olmalı.`);
   if (/Arıkan|arikanortopedi\.com|Kütahya|0274 600|0553 666/.test(html)) throw new Error(`${route.path}: eski marka bilgisi kaldı.`);
   if (!html.includes('id="root"><div')) throw new Error(`${route.path}: sayfa içeriği önceden render edilmemiş.`);
@@ -93,7 +94,7 @@ for (const route of routes) {
     await readFile(join(DIST_DIR, match[1]));
   }
 }
-console.log("Brand verification passed: 8 services, preserved SEO terms, rendered content, internal links and local images.");
+console.log("Brand verification passed: 7 services, FootBalance SEO terms, rendered content, internal links and local images.");
 
 const homepageRoutes = routes.filter(route => route.post).slice(0, 4);
 if (new Set(homepageRoutes.map(route => route.post.coverImage)).size !== 4) throw new Error("Ana sayfa blog kapakları birbirinden farklı olmalı.");

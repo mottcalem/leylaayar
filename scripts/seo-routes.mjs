@@ -12,8 +12,8 @@ export const HOME_METADATA = {
 const STATIC_ROUTES = [
   {
     path: "/blog",
-    title: "Blog | Fizyoterapi, Klinik Pilates, Ortez Protez & Rehabilitasyon — Uzman Fizyoterapist Leyla Ayar Bahçeşehir",
-    description: "Bahçeşehir fizyoterapi ve klinik pilates yazıları; ortez, protez, FootBalance tabanlık ve SGK başvuru rehberleri.",
+    title: "Blog | Fizyoterapi, Klinik Pilates ve FootBalance — Uzman Fizyoterapist Leyla Ayar Bahçeşehir",
+    description: "Bahçeşehir fizyoterapi, klinik pilates ve kişiye özel FootBalance tabanlık hakkında yazılar.",
   },
   {
     path: "/kvkk",

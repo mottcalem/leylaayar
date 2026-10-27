@@ -15,9 +15,9 @@ export default function BlogPage() {
   useCanonical();
 
   useEffect(() => {
-    document.title = "Blog | Fizyoterapi, Klinik Pilates, Ortez Protez & Rehabilitasyon — Uzman Fizyoterapist Leyla Ayar Bahçeşehir";
+    document.title = "Blog | Fizyoterapi, Klinik Pilates ve FootBalance — Uzman Fizyoterapist Leyla Ayar Bahçeşehir";
     const desc = document.querySelector('meta[name="description"]');
-    if (desc) desc.setAttribute("content", "Bahçeşehir fizyoterapi ve klinik pilates yazıları; ortez, protez, FootBalance tabanlık ve SGK başvuru rehberleri.");
+    if (desc) desc.setAttribute("content", "Bahçeşehir fizyoterapi, klinik pilates ve kişiye özel FootBalance tabanlık hakkında yazılar.");
   }, []);
 
   const filtered = BLOG_POSTS.filter((p) => {
@@ -61,10 +61,10 @@ export default function BlogPage() {
             Uzman Blog
           </span>
           <h1 className="text-4xl sm:text-5xl font-black mb-4" style={{ fontFamily: "Manrope, sans-serif" }}>
-            Fizyoterapi, Ortez & Protez Rehberleri
+            Fizyoterapi ve FootBalance Rehberleri
           </h1>
           <p className="text-lg mb-8" style={{ color: "rgba(255,255,255,0.78)" }}>
-            Bahçeşehir’de fizyoterapi ve klinik pilates; ortez, protez, tabanlık ve rehabilitasyon hakkında bilgilendirici rehberler.
+            Bahçeşehir’de fizyoterapi, klinik pilates, kişiye özel FootBalance tabanlık ve rehabilitasyon hakkında yazılar.
           </p>
           {/* Arama */}
           <div className="relative max-w-lg mx-auto">

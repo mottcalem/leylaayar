@@ -23,7 +23,7 @@ Marka bilgileri ve sekiz hizmet `src/app/brand.ts` içinde; ana renk `src/styles
 
 24 Ekim 2026 tarihinde https://www.leylaayar.com/, `/hakkimizda` ve `/hizmetlerimiz` sayfalarındaki marka, eğitim, hizmet ve iletişim bilgileri esas alındı. Logo kullanıcı tarafından sağlandı. Klinik fotoğrafı mevcut Leyla Ayar sitesinden alındı.
 
-Kaynak projedeki ortez/protez anahtar kelimeleri korundu; lokasyon Bahçeşehir olarak uyarlandı. Cihaz üretimi, SGK anlaşması ve doğrulanmamış başarı/sertifika iddiaları Leyla Ayar hizmeti olarak sunulmaz. İlgili konular bilgilendirme rehberlerinde bulunur. Önceki Kütahya blog yolları istemci tarafında eşdeğer rehberlere çözümlenir; canonical yeni Bahçeşehir yolunu gösterir.
+İçerikler fizyoterapi, pilates, rehabilitasyon ve kişiye özel FootBalance tabanlık hizmetlerini kapsar.
 
 Kaynak proje: https://github.com/mottcalem/MedikalCMS-IstanbulOrtezProtez
 
