@@ -23,6 +23,7 @@ import { BLOG_POSTS } from "./blog/blogData";
 import { useCanonical } from "./hooks/useCanonical";
 
 const NAV = [
+  ["Fizik Tedavi", "#fizik-tedavi"],
   ["Hakkımızda", "#hakkimizda"],
   ["Hizmetlerimiz", "#hizmetler"],
   ["Taban Analizi", "#taban-analizi"],
@@ -30,6 +31,10 @@ const NAV = [
   ["İletişim", "#iletisim"],
 ];
 const FAQ = [
+  [
+    "Bel ve boyun ağrısı için fizik tedavi randevusu alabilir miyim?",
+    "Bel, boyun ve omurga şikâyetleriniz için kliniğimizle iletişime geçerek fizyoterapi değerlendirmesi planlayabilirsiniz. İlk görüşmede sağlık geçmişiniz, mevcut şikâyetleriniz ve varsa hekim raporlarınız ele alınarak size uygun süreç belirlenir.",
+  ],
   [
     "Bahçeşehir’de fizyoterapist randevusu nasıl alabilirim?",
     "0534 307 00 48 numaralı telefondan veya WhatsApp üzerinden ulaşarak ihtiyaçlarınızı paylaşabilir ve uygun randevu saatini öğrenebilirsiniz. Kliniğimiz Bahçeşehir Sofa Evleri’ndedir.",
@@ -193,20 +198,21 @@ export default function App() {
                 Uzman Fizyoterapist Leyla Ayar
               </p>
               <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold leading-[1.15] mb-7">
-                Bahçeşehir’de Fizyoterapist Eşliğinde{" "}
-                <span className="text-[#b8ddcd]">Klinik Pilates</span>
+                Bahçeşehir’de Kişiye Özel{" "}
+                <span className="text-[#b8ddcd]">Fizik Tedavi ve Rehabilitasyon</span>
               </h1>
               <p className="text-lg leading-relaxed text-white/75 mb-9 max-w-xl">
-                Hareketi hayatınıza güvenle katın. Fizyoterapi, klinik pilates
-                ve rehabilitasyon sürecinizi ihtiyaçlarınıza, günlük yaşamınıza
-                ve hedeflerinize göre birlikte planlayalım.
+                Bel, boyun ve omurga ağrılarınız için bireysel değerlendirmeyle
+                başlayalım. Fizik tedavi ve rehabilitasyon, klinik pilates ve
+                kişiye özel tabanlık hizmetlerimizle ihtiyacınıza uygun süreci
+                birlikte planlayalım.
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
                   href="#iletisim"
                   className="brand-button bg-white! text-primary!"
                 >
-                  Randevu Alın <ArrowRight size={18} />
+                  Fizik Tedavi Randevusu <ArrowRight size={18} />
                 </a>
                 <a
                   href="#hizmetler"
@@ -217,7 +223,7 @@ export default function App() {
               </div>
               <div className="grid grid-cols-3 gap-4 mt-12 pt-8 border-t border-white/15">
                 {[
-                  ["Kişiye Özel", "Egzersiz planı"],
+                  ["Kişiye Özel", "Fizyoterapi planı"],
                   ["Uzman", "Fizyoterapist eşliği"],
                   ["Bahçeşehir", "Sofa Evleri"],
                 ].map(([title, desc]) => (
@@ -248,6 +254,50 @@ export default function App() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="py-12 bg-secondary" aria-label="Öne çıkan hizmetler">
+          <div className="site-container grid md:grid-cols-3 gap-5">
+            {[
+              [Activity, "Fizik Tedavi ve Rehabilitasyon", "Bel, boyun ve omurga şikâyetleri için kişiye özel değerlendirme ve seans planı.", "#fizik-tedavi", "Fizik Tedaviyi İnceleyin"],
+              [Heart, "Klinik Pilates", "Fizyoterapist eşliğinde, hareket ihtiyaçlarınıza uygun bireysel egzersiz programı.", "#klinik-pilates", "Klinik Pilatesi İnceleyin"],
+              [Footprints, "Kişiye Özel Tabanlık", "Taban analizi ve günlük ihtiyaçlarınıza uygun FootBalance tabanlık uygulaması.", "#taban-analizi", "Tabanlık Hizmetini İnceleyin"],
+            ].map(([Icon, title, text, href, label], index) => {
+              const I = Icon as typeof Activity;
+              return (
+                <a key={String(href)} href={String(href)} className={`brand-card flex flex-col transition-colors hover:border-primary/40 ${index === 0 ? "border-primary/40!" : ""}`}>
+                  <I className="text-primary mb-4" aria-hidden="true" />
+                  <h2 className="text-xl font-bold mb-3">{String(title)}</h2>
+                  <p className="body-copy text-sm grow mb-5">{String(text)}</p>
+                  <span className="inline-flex items-center gap-2 text-sm font-bold text-primary">{String(label)} <ArrowRight size={16} /></span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+        <section id="fizik-tedavi" className="py-24">
+          <div className="site-container grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="section-badge">Fizik Tedavi ve Rehabilitasyon</span>
+              <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">Bel, boyun ve omurga ağrıları için Bahçeşehir’de fizyoterapi</h2>
+              <p className="body-copy mb-5">Günlük yaşamınızı etkileyen ağrı, hareket kısıtlılığı veya ortopedik bir sorun için sürece bireysel değerlendirmeyle başlıyoruz. Şikâyetlerinizi, sağlık geçmişinizi ve varsa hekim raporlarınızı birlikte ele alıyoruz.</p>
+              <p className="body-copy mb-7">Fizik tedavi seanslarınızı; hareket kapasiteniz, ihtiyaçlarınız ve günlük yaşam hedeflerinize göre planlıyor, gelişiminize göre takip ediyoruz.</p>
+              <a href="#iletisim" className="brand-button">Fizik Tedavi İçin Ulaşın <ArrowRight size={18} /></a>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                ["Bel Ağrısı", "Bel bölgesindeki şikâyetler ve günlük hareket ihtiyaçları için değerlendirme."],
+                ["Boyun Ağrısı", "Boyun hareketleri, duruş alışkanlıkları ve kişiye özel egzersiz planı."],
+                ["Omurga Sağlığı", "Sırt ve omurga şikâyetlerinde hareket, postür ve işlev odaklı yaklaşım."],
+                ["Ortopedik Rehabilitasyon", "Kas ve eklem sorunları, ameliyat veya yaralanma sonrası süreç için bireysel planlama."],
+              ].map(([title, text]) => (
+                <article key={title} className="brand-card bg-secondary!">
+                  <Activity className="text-primary mb-4" aria-hidden="true" />
+                  <h3 className="font-bold text-lg mb-3">{title}</h3>
+                  <p className="body-copy text-sm">{text}</p>
+                </article>
+              ))}
             </div>
           </div>
         </section>
@@ -311,7 +361,7 @@ export default function App() {
           <div className="site-container">
             <Heading
               badge="Terapi Alanlarımız"
-              title="Bahçeşehir fizyoterapi ve pilates hizmetleri"
+              title="Fizik tedavi, klinik pilates ve tabanlık hizmetleri"
               text="Her bireyin hareket ihtiyacı farklıdır. Size uygun başlangıç noktasını birlikte belirleyelim."
             />
             <div
@@ -342,7 +392,7 @@ export default function App() {
               ).map((s) => {
                 const Icon = icons[s.icon as keyof typeof icons];
                 return (
-                  <article className="brand-card flex flex-col" key={s.title}>
+                  <article id={s.title === "Klinik Pilates" ? "klinik-pilates" : undefined} className="brand-card flex flex-col" key={s.title}>
                     <div className="w-12 h-12 bg-secondary text-primary rounded-xl flex items-center justify-center mb-6">
                       <Icon />
                     </div>

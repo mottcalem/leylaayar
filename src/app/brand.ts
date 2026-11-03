@@ -13,17 +13,11 @@ export const BRAND = {
   address: "Avni Akyol Bulvarı Sofa Evleri B5 Blok D:37 Bahçeşehir / İstanbul",
   instagram: "https://www.instagram.com/fzt.leylaayar/",
   title:
-    "Bahçeşehir Fizyoterapist | Klinik Pilates ve Rehabilitasyon — Leyla Ayar",
+    "Bahçeşehir Fizik Tedavi ve Fizyoterapist | Leyla Ayar",
   description:
-    "Bahçeşehir’de Uzman Fizyoterapist Leyla Ayar ile klinik pilates, fizyoterapi, ortopedik rehabilitasyon, omurga sağlığı ve taban analizi. Randevu: 0534 307 00 48.",
+    "Bahçeşehir’de bel, boyun ve omurga ağrıları için fizik tedavi ve rehabilitasyon; klinik pilates ve kişiye özel FootBalance tabanlık. Fizyoterapist Leyla Ayar.",
 };
 export const SERVICES = [
-  {
-    title: "Taban Analizi",
-    text: "Ayak basışı, duruş ve yürüyüş alışkanlıklarını değerlendiriyor, kişiye özel FootBalance tabanlık hizmeti sunuyoruz.",
-    icon: "foot",
-    category: "Ayak sağlığı",
-  },
   {
     title: "Omurga Sağlığı",
     text: "Postür farkındalığı, hareket kontrolü ve kişiye özel egzersizlerle omurga sağlığını destekliyoruz.",
@@ -41,6 +35,12 @@ export const SERVICES = [
     text: "Fizyoterapist eşliğinde, ihtiyaçlarınıza göre uyarlanan egzersizlerle kas dengesi ve beden farkındalığı üzerinde çalışıyoruz.",
     icon: "activity",
     category: "Pilates",
+  },
+  {
+    title: "Taban Analizi",
+    text: "Ayak basışı, duruş ve yürüyüş alışkanlıklarını değerlendiriyor, kişiye özel FootBalance tabanlık hizmeti sunuyoruz.",
+    icon: "foot",
+    category: "Ayak sağlığı",
   },
   {
     title: "Pilates",

@@ -5,8 +5,8 @@ export const ROBOTS = "index, follow, max-snippet:-1, max-image-preview:large, m
 
 export const HOME_METADATA = {
   path: "/",
-  title: "Bahçeşehir Fizyoterapist | Klinik Pilates ve Rehabilitasyon — Leyla Ayar",
-  description: "Bahçeşehir’de Uzman Fizyoterapist Leyla Ayar ile klinik pilates, fizyoterapi, ortopedik rehabilitasyon, omurga sağlığı ve taban analizi. Randevu: 0534 307 00 48.",
+  title: "Bahçeşehir Fizik Tedavi ve Fizyoterapist | Leyla Ayar",
+  description: "Bahçeşehir’de bel, boyun ve omurga ağrıları için fizik tedavi ve rehabilitasyon; klinik pilates ve kişiye özel FootBalance tabanlık. Fizyoterapist Leyla Ayar.",
 };
 
 const STATIC_ROUTES = [
